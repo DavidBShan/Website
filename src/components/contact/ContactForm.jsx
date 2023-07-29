@@ -14,10 +14,10 @@ function ContactForm({className}) {
         setResult(false);
         setLoading(true);
         emailjs.sendForm(
-            'service_mxt8ue9',
-            'template_1f1243o',
+            'service_q1ukn0j',
+            'template_wi86n0w',
             form.current,
-            'bvnMqTU1Ir-7kgLNL')
+            'SQQyavWAI1jQ3uKJV')
             .then((result) => {
                 setLoading(false);
                 setResult(true);
@@ -32,7 +32,7 @@ function ContactForm({className}) {
 
     return (
         <div className={dsnCN('form-box', className)}>
-            <h3 className="mb-30">Write A Comment</h3>
+            <h3 className="mb-30">Leave Me A Message!</h3>
             <form ref={form} onSubmit={sendEmail}>
                 <div className="input__wrap controls">
                     <div className="form-group">
@@ -59,8 +59,7 @@ function ContactForm({className}) {
                     </div>
                     {loading && <div className="loading-message mt-20">Message Send ...</div>}
                     {result &&
-                    <p className="success-message mt-20">Your Message has been successfully sent. I will contact you
-                        soon.</p>}
+                    <p className="success-message mt-20">Your Message has been successfully sent. I will contact you soon.</p>}
                 </div>
             </form>
         </div>

@@ -14,16 +14,12 @@ import {Helmet} from "react-helmet";
 
 const headerContent = {
     title: 'Contact',
-    description: `Lat's Tock`
+    description: `Let's Connect!`
 }
 
 function Contact(props) {
-
-    const center = {lat: 30.0489206, lng: 31.258553};
-
     return (
         <React.Fragment>
-
             <Helmet>
                 <title>Droow - Contact Us </title>
             </Helmet>
@@ -33,30 +29,18 @@ function Contact(props) {
                 {headerContent.title}
             </HeaderNormalTow>
 
-            {/*Start Map*/}
-            <Map
-                googleMapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
-                defaultZoom={10}
-                options={optionDroowMap}
-                height="80vh"
-                defaultCenter={center}
-                showMarker
-            />
-
             {/*Start Contact Form && Info Box*/}
-            <Container className="section-margin">
+            <Container>
                 <DsnGrid col={2} colTablet={1}>
                     <InfoBox className="background-section p-30"/>
                     <ContactForm/>
                 </DsnGrid>
             </Container>
 
-            <NextPage className="section-margin" to="/portfolio" text="See More Works.">
+            <NextPage to="/portfolio" text="See More Works.">
                 Portfolio
             </NextPage>
             <Footer/>
-
-
         </React.Fragment>
     );
 }

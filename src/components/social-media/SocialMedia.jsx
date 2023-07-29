@@ -1,36 +1,41 @@
-import React, {useEffect, useRef} from 'react'
-import {dsnCN} from '../../hooks/helper'
+import React, { useEffect, useRef } from 'react'
+import { dsnCN } from '../../hooks/helper'
 import './style.scss'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebookF, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
-import {splittingItems} from "../../hooks/Spltting";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faBookmark, faVideo } from '@fortawesome/free-solid-svg-icons'
+import { splittingItems } from '../../hooks/Spltting'
+import PropTypes from 'prop-types'
 
+SocialMedia.propTypes = {
+  className: PropTypes.string // Validate that 'className' is a string (optional)
+}
 
-function SocialMedia({className}) {
-    const ref = useRef();
-    const socialData = [
-        {link: "#0", icon: faFacebookF},
-        {link: "#0", icon: faTwitter},
-        {link: "#0", icon: faInstagram},
-    ];
+function SocialMedia ({ className }) {
+  const ref = useRef()
+  const socialData = [
+    { link: 'https://medium.com/@davidbshan', icon: faMedium },
+    { link: 'https://substack.com/@davidshan', icon: faBookmark }, // Replace with the actual homepage URL
+    { link: 'https://www.linkedin.com/in/david-shan-076a39265/', icon: faLinkedin }, // Replace with the actual homepage URL
+    { link: 'mailto:davidbshan@gmail.com', icon: faEnvelope }, // Replace with the actual email address
+    { link: 'https://calendly.com/davidbshan/30min', icon: faVideo } // Replace with the actual homepage URL
+  ]
 
+  useEffect(() => {
+    splittingItems(ref.current, 'li')
+  }, [])
 
-    useEffect(() => {
-        splittingItems(ref.current, 'li')
-    });
-
-    return (
-        <ul className={dsnCN('social-one', className)} ref={ref}>
-            {socialData.map((item, index) =>
-                <li key={index}>
-                    <a href={item.link} target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={item.icon}/>
-                    </a>
-                </li>
-            )}
-        </ul>
-
-    )
+  return (
+    <ul className={dsnCN('social-one', className)} ref={ref}>
+      {socialData.map((item, index) => (
+        <li key={index}>
+          <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={item.icon} size="2xl" />{' '}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )
 }
 
 export default SocialMedia

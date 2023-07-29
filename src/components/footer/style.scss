@@ -1,9 +1,13 @@
 @import "../../assets/sass/helper";
 
+// Define spacing variables
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 40px;
+
 .footer {
   position: relative;
-
-
+  padding: $spacing-medium; // Add padding to the whole footer
 
   .dsn-col-footer {
     .footer-title {
@@ -11,8 +15,8 @@
       color: $heading-color;
       text-transform: uppercase;
       font-size: 15px;
-      padding-bottom: 10px;
-      margin-bottom: 25px;
+      padding-bottom: $spacing-small;
+      margin-bottom: $spacing-medium;
       letter-spacing: 2px;
 
       &:after {
@@ -30,8 +34,10 @@
       font-size: 14px;
       font-weight: 600;
       overflow: hidden;
-      &:not(:last-child){
-        margin-bottom: 5px;
+      margin-bottom: $spacing-small; // Add margin bottom to each list item
+
+      &:not(:last-child) {
+        margin-bottom: $spacing-small;
       }
 
       a {
@@ -39,22 +45,20 @@
       }
     }
 
-
-    .col-contact p{
+    .col-contact p {
       font-size: 12px;
       font-weight: 600;
-      margin-bottom: 10px;
+      margin-bottom: $spacing-small;
 
       strong {
         color: $heading-color;
       }
 
       span {
-        margin-right: 5px;
-        margin-left: 5px;
+        margin-right: $spacing-small;
+        margin-left: $spacing-small;
       }
     }
-
   }
 
   a,
@@ -68,12 +72,31 @@
     line-height: 1.6;
     font-variant-numeric: proportional-nums;
     font-family: $heading-font;
+    margin-bottom: $spacing-small; // Add margin bottom to all links and paragraphs
+  }
+
+  .footer-links {
+    padding-top: $spacing-large; // Add padding to the top of .footer-links
+    padding-bottom: $spacing-medium; // Add padding to the bottom of .footer-links
+  }
+
+  .mt-20 {
+    margin-top: $spacing-medium; // Add margin top to .mt-20 class (assuming it's used in SocialMedia component)
+  }
+
+  .pt-40 {
+    padding-top: $spacing-large; // Add padding top to .pt-40 class (assuming it's used in some component)
+  }
+
+  .pb-40 {
+    padding-bottom: $spacing-large; // Add padding bottom to .pb-40 class (assuming it's used in some component)
   }
 
   .copyright {
     font-size: 14px;
     letter-spacing: 2.67px;
     border-top: 1px solid $border-color;
+    padding-top: $spacing-medium; // Add padding to the top of .copyright
 
     p {
       text-transform: uppercase;
@@ -81,11 +104,11 @@
 
     .copyright-text {
       color: $body-color;
-      margin-top: 5px;
+      margin-top: $spacing-small; // Add margin top to .copyright-text
       font-weight: 500;
 
       a {
-        margin-left: 5px;
+        margin-left: $spacing-small; // Add margin left to links inside .copyright-text
         color: #a56433;
       }
     }

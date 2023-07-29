@@ -4,10 +4,9 @@ import {dsnCN} from "../../../hooks/helper";
 function MenuContent({className}) {
     const socialData = [
         {link: "https://www.linkedin.com/in/david-shan-076a39265/", name: "LinkedIn"},
-        {link: "https://www.youtube.com/channel/UCwBoXaCIDdpoZzsbKhLUlUA", name: "Youtube"},
         {link: "https://medium.com/@davidbshan", name: "Medium"},
-        {link: "https://substack.com/profile/149437949-david-shan", name: "Newsletter"},
-        {link: "https://www.instagram.com/chicknmcswag/", names: "Instagram"}
+        { link: "https://substack.com/profile/149437949-david-shan", name: "Newsletter" },
+        { link: "https://github.com/ChikenMcSwag", name: "Github" }
     ];
     return (
         <div className={dsnCN('container-content  d-flex flex-column justify-content-center', className)}>
@@ -21,7 +20,7 @@ function MenuContent({className}) {
                     </p>
                     <p className="links over-hidden">
                         <a className="link-hover" href="mailto:davidbshan@gmail.com"
-                           data-hover-text="davidbshan@gmail.com">davidbshan@gmail.com</a>
+                           data-hover-text="davidbshan@gmail.com">Email: davidbshan@gmail.com</a>
                     </p>
                 </div>
             </div>
