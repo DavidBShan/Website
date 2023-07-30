@@ -95,7 +95,7 @@ function Demo3 (props) {
 
       {/* Start Service Section */}
       <Container className="section-margin">
-        <TitleSection description="Our Services">Skills</TitleSection>
+        <TitleSection description="My Skillset">Skills</TitleSection>
         <ServiceTow col={2} colMobile={1} />
       </Container>
       {/* End Service Section */}

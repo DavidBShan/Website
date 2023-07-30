@@ -17,17 +17,16 @@ function Footer({ className, ...restProps }) {
       <Container>
         <div className="footer-links pt-80 pb-40">
           <DsnGrid col={4} colTablet={2}>
-            {/* Increase margin to push Brand down */}
-            <div style={{ marginTop: '110px', marginLeft: '200px'}}>
-              <NavLink to="/">
-                <Brand width="90px" />
-              </NavLink>
-            </div>
             <div className="dsn-col-footer">
               <h4 className="footer-title">Navigation</h4>
               <MenuFooter />
             </div>
-            <div className="mt-40" style={{ marginTop: '110px', marginLeft: '180px'}}>
+            <div style={{ marginTop: '65px', marginLeft: '150px'}}>
+              <NavLink to="/">
+                <img src="/assets/img/logo/logo.png"/>
+              </NavLink>
+            </div>
+            <div className="mt-40" style={{ marginTop: '110px', marginLeft: '150px'}}>
               <SocialMedia />
             </div>
           </DsnGrid>

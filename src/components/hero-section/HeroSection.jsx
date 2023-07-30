@@ -48,11 +48,15 @@ function HeroSection ({ className, ...restProps }) {
                     sequence={[
                       'Innovator\n',
                       1000,
-                      'Programmer\n',
+                      'Developer\n',
                       1000,
                       'Thinker\n',
                       1000,
                       'Risk-Taker\n',
+                      1000,
+                      'Learner\n',
+                      1000,
+                      'Designer\n',
                       1000
                     ]}
                     wrapper="span"

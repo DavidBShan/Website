@@ -39,6 +39,6 @@ const Brand = ({width, height, alt}) => {
 }
 
 MainBrand.defaultProps = {width: '80px', height: 'auto'}
-Brand.defaultProps = {alt: "Droow"}
+Brand.defaultProps = {alt: "David Shan"}
 
 export default React.memo(Brand);

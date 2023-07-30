@@ -1,5 +1,5 @@
 import React from 'react';
-import SliderPortfolio from "../../components/slider-portfolio/SliderPortfolio";
+import SliderPortfolio from "../components/slider-portfolio/SliderPortfolio";
 
 function SliderThree() {
     return (

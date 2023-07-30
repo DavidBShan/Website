@@ -9,12 +9,8 @@ const Scrollbar = React.lazy(() => import("smooth-scrollbar"));
 
 const LandingPage = React.lazy(() => import("../views/home/LandingPage"));
 
-const SliderOne = React.lazy(() => import("../views/slider/SliderOne"));
-const SliderTow = React.lazy(() => import("../views/slider/SliderTow"));
-const SliderThree = React.lazy(() => import("../views/slider/SliderThree"));
-
+const Slider= React.lazy(() => import("../views/Slider"));
 const Work = React.lazy(() => import("../views/Work"));
-const WorkTow = React.lazy(() => import("../views/WorkTow"));
 const ProjectDetails = React.lazy(() => import("../views/portfolio/ProjectDetails"));
 
 const About = React.lazy(() => import("../views/About"));
@@ -48,18 +44,17 @@ const Router = () => {
                 <Routes location={location}>
                     <Route path="/" element={<LandingPage/>}/>
 
-                    <Route path="/slider" element={<SliderOne/>}/>
-                    <Route path="/slider-2" element={<SliderTow/>}/>
-                    <Route path="/slider-3" element={<SliderThree/>}/>
+                    <Route path="/slider" element={<Slider/>}/>
 
                     <Route exact path="/portfolio" element={<Work/>}/>
-                    <Route exact path="/portfolio-2" element={<WorkTow/>}/>
                     <Route exact path="/portfolio/:slug" element={<ProjectDetails/>}/>
 
                     <Route exact path="/about" element={<About/>}/>
                     <Route exact path="/contact" element={<Contact/>}/>
                     <Route exact path="/blog-details" element={<BlogDetails/>}/>
-                    <Route exact path="*" element={<h1>Not Found</h1>}/>
+                    <Route exact path="*" element={<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+                                                    <h1 style={{ fontSize: '3rem', fontWeight: 'bold' }}>Page Not Found</h1>
+                                                </div>}/>
                 </Routes>
             </Suspense>
         </div>

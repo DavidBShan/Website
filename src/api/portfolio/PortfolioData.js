@@ -9,21 +9,21 @@ const data = [
   {
     id: 1,
     title: 'Geotab Intern',
-    slug: 'time-tag-watch',
+    slug: 'geotab',
     category: ['Software Development'],
     description:
       'Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.',
-    src: '/assets/img/project/project1/1.jpg',
-    srcSlider: '/assets/img/project/project1/13.jpg',
+    src: '/assets/img/portfolio/Geotab.jpg',
+    srcSlider: '/assets/img/portfolio/Geotab.jpg',
     overlay: 2,
     component: (props) => <TimeTagWatch {...props} />
   },
   {
     id: 2,
     title: 'Cyberbot',
-    slug: 'under-armour',
-    src: '/assets/img/project/project2/1.jpg',
-    srcSlider: '/assets/img/project/project2/10.jpg',
+    slug: 'cyberbot',
+    src: '/assets/img/portfolio/Cyberbot.png',
+    srcSlider: '/assets/img/portfolio/Cyberbot.png',
     category: ['Backend Development'],
     description:
       'Cal was first. The first public university in the great state of California. They are the pioneers. They are the trailblazers who started it all.',
@@ -34,9 +34,9 @@ const data = [
   {
     id: 3,
     title: 'VivAIdi',
-    slug: 're-styling',
-    src: '/assets/img/project/project3/1.jpg',
-    srcSlider: '/assets/img/project/project3/3.jpg',
+    slug: 'vivaidi',
+    src: '/assets/img/portfolio/VivAIdi.png',
+    srcSlider: '/assets/img/portfolio/VivAIdi.png',
     category: ['Full-Stack Development'],
     description:
       'Once the brand strategy was sharp and real for everyone inside of the company, all the brand behavior started to roll out as stationary material.',
@@ -46,24 +46,21 @@ const data = [
   {
     id: 4,
     title: 'Investigating the Negative Connotations of Subsidized Housing',
-    slug: 'toast-2019-reel',
+    slug: 'subsidized',
+    src: '/assets/img/portfolio/SubsidizedHousing.jpg',
+    srcSlider: '/assets/img/portfolio/SubsidizedHousing.jpg',
     category: ['Data Science'],
-    src: 'https://theme.dsngrid.com/video/droow.mp4',
-    video: {
-      poster: '/assets/img/project/project4/1.jpg',
-      loop: true
-    },
     description:
-      'We are thrilled to share our new reel with you all! Special thanks to all of our talented friends.',
+      'Once the brand strategy was sharp and real for everyone inside of the company, all the brand behavior started to roll out as stationary material.',
     overlay: 2,
-    component: (props) => <ToastReel {...props} />
+    component: (props) => <ReStyling {...props} />
   },
   {
     id: 5,
-    title: 'AIME Qualifier',
-    slug: 'what-if-gold',
-    src: '/assets/img/project/project5/1.jpg',
-    srcSlider: '/assets/img/project/project5/2.jpg',
+    title: 'Math Contests',
+    slug: 'math',
+    src: '/assets/img/portfolio/MAA.jpg',
+    srcSlider: '/assets/img/portfolio/MAA.jpg',
     category: ['Mathematics'],
     description:
       'Cal was first. The first public university in the great state of California. They are the pioneers. They are the trailblazers who started it all.',
@@ -73,9 +70,9 @@ const data = [
   {
     id: 6,
     title: 'FRC Team 610 Scouting App',
-    slug: 'under-armour',
-    src: '/assets/img/project/project2/1.jpg',
-    srcSlider: '/assets/img/project/project2/10.jpg',
+    slug: '610',
+    src: '/assets/img/portfolio/610.png',
+    srcSlider: '/assets/img/portfolio/610.png',
     category: ['Frontend Development'],
     description:
       'Cal was first. The first public university in the great state of California. They are the pioneers. They are the trailblazers who started it all.',
@@ -88,8 +85,8 @@ const data = [
     title: 'Sports',
     slug: 'nile-kabutha',
     category: ['Atheletic Achievements'],
-    src: '/assets/img/project/project6/1.jpg',
-    srcSlider: '/assets/img/project/project6/2.jpg',
+    src: '/assets/img/portfolio/TableTennis.jpg',
+    srcSlider: '/assets/img/portfolio/TableTennis.jpg',
     description:
       'Striking and powerful Aston Martin Vantage captivates you at the first sight.',
     overlay: 2,
