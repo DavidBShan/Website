@@ -1,21 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import {Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import DsnGrid from "../components/DsnGrid";
 
 import HeaderNormalTow from "../components/header/HeaderNormalTow";
 import Footer from "../components/footer/Footer";
-import Map, {optionDroowMap} from "../components/Map/Map";
 import InfoBox from "../components/contact/InfoBox";
 import ContactForm from "../components/contact/ContactForm";
 import NextPage from "../components/next/NextPage";
-import {Helmet} from "react-helmet";
-
+import { Helmet } from "react-helmet";
 
 const headerContent = {
-    title: 'Contact',
-    description: `Let's Connect!`
-}
+    title: "Contact",
+    description: `Let's Connect!`,
+};
 
 function Contact(props) {
     return (
@@ -32,15 +30,15 @@ function Contact(props) {
             {/*Start Contact Form && Info Box*/}
             <Container>
                 <DsnGrid col={2} colTablet={1}>
-                    <InfoBox className="background-section p-30"/>
-                    <ContactForm/>
+                    <InfoBox className="background-section p-30" />
+                    <ContactForm />
                 </DsnGrid>
             </Container>
 
             <NextPage to="/portfolio" text="See More Works.">
                 Portfolio
             </NextPage>
-            <Footer/>
+            <Footer />
         </React.Fragment>
     );
 }

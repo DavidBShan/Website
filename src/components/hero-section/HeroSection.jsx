@@ -55,8 +55,6 @@ function HeroSection ({ className, ...restProps }) {
                       'Risk-Taker\n',
                       1000,
                       'Learner\n',
-                      1000,
-                      'Designer\n',
                       1000
                     ]}
                     wrapper="span"
