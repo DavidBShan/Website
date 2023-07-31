@@ -29,11 +29,6 @@ const PeopleDetails = [
         subTitle: "Money",
     },
     {
-        src: "/assets/img/people/Tate.png",
-        title: "Tate Brothers",
-        subTitle: "Masculinity",
-    },
-    {
         src: "/assets/img/people/Rogan.jpg",
         title: "Joe Rogan",
         subTitle: "Knowledge",
@@ -41,7 +36,7 @@ const PeopleDetails = [
     {
         src: "/assets/img/people/Shapiro.jpg",
         title: "Ben Shapiro",
-        subTitle: "Politics",
+        subTitle: "Reasoning",
     },
     {
         src: "/assets/img/people/Marcus.jpg",

@@ -8,6 +8,7 @@ import BoxRight from "../components/box-right/BoxRight";
 import TitleSection from "../components/heading/TitleSection";
 import People from "../components/team/People";
 import Movie from "../components/team/Movies";
+import Song from "../components/team/Songs";
 import Footer from "../components/footer/Footer";
 import TestimonialTow from "../components/testimonial/TestimonialTow";
 import { Helmet } from "react-helmet";
@@ -86,6 +87,17 @@ function About() {
                         Movies That Inspire Me
                     </TitleSection>
                     <Movie loop grabCursor />
+                </Container>
+            </section>
+            {/*End People*/}
+
+            {/*Start People*/}
+            <section className="section-margin background-section section-padding">
+                <Container className="dsn-right-container">
+                    <TitleSection description="Songs">
+                        Songs That I Enjoy
+                    </TitleSection>
+                    <Song loop grabCursor />
                 </Container>
             </section>
             {/*End People*/}
