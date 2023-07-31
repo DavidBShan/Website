@@ -49,8 +49,8 @@ const STEM = ({ data }) => {
                 <FadeUpTrigger>
                     <p className="mt-20">
                         Quite frankly, I have been working with STEM for most of
-                        my life and here are just some of my other achievements.
-                        Related to STEM:
+                        my life and here are just some of my achievements
+                        related to STEM:
                         <br /> <br />
                         - AIME Qualifier (American Invitational Mathematic
                         Examination)
