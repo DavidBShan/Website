@@ -136,6 +136,7 @@ const TimeTagWatch = ({ data }) => {
                 </FadeUpTrigger>
             </BoxImageVertical>
             {/*End  Box Info With Image*/}
+            <TitleCover>Algorithm</TitleCover>
             <h2 style={{ textAlign: "center", paddingBottom: "50px" }}>
                 Cool Curve Logging Algorithm From Geotab
             </h2>
