@@ -158,6 +158,9 @@ function Skills() {
                                 - Robotics
                                 <br />
                                 <br />
+                                - Internet of Things
+                                <br />
+                                <br />
                             </p>
                         </FadeUpTrigger>
                     </BoxRight>
