@@ -113,13 +113,13 @@ const TimeTagWatch = ({ data }) => {
                                 More importantly, I have learned so
                                 much from the two month that I have been working
                                 at Geotab, because I was able to have a feel
-                                about how a large company operates as well as
+                                about how a large company operates, as well as
                                 the feeling of working with such a big code
-                                project which isn't something that I can get
+                                project, which isn't something that I can get
                                 when working with my personal projects. Lastly,
-                                I have genuinely learned so many new concepts
-                                that I couldn't have learned any other way and
-                                was able to work with those concepts and develop
+                                I have learned so many new concepts
+                                that I couldn't have learned any other way, I
+                                was also able to work with those concepts and develop
                                 a far greater understanding of programming than
                                 before.
                             </p>

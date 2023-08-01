@@ -50,7 +50,7 @@ function ContactForm({className}) {
                     <div className="form-group">
                         <label>What's up?</label>
                         <textarea id="form_message" className="form-control" name="message"
-                                  placeholder="Tell us about you and the world" required="required"
+                                  placeholder="Tell me about you" required="required"
                         />
                     </div>
 

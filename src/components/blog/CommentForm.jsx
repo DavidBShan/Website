@@ -25,7 +25,7 @@ function CommentForm({className}) {
                     <div className="form-group">
                         <label>Comment?</label>
                         <textarea id="form_message" className="form-control" name="comment"
-                                  placeholder="Tell us about you and the world" required="required"
+                                  placeholder="Tell me about you" required="required"
                         />
                     </div>
 

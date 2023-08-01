@@ -16,7 +16,7 @@ import { Helmet } from "react-helmet";
 
 const headerContent = {
     title: "Skills",
-    description: `Here are some of the skills that I developed throughout my life`,
+    description: `Here are some of the skills that I developed throughout my life.`,
 };
 
 function Skills() {
