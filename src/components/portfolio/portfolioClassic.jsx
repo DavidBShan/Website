@@ -40,7 +40,7 @@ const PortfolioClassic = ({className, ...restProps}: DsnGridProps) => {
                 {dataPortfolio.map((item, index) =>
                     <PortfolioItem
                         className={typeof item.category === "object" ? item.category.join(" ").toLowerCase() : item.category.toLowerCase()}
-                        key={index} portoDetails={item} textButton="View Case"/>)}
+                        key={index} portoDetails={item} textButton="Learn More"/>)}
             </DsnGrid>
         </section>
     );

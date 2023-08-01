@@ -34,7 +34,7 @@ function ContentSlider({ data, activeClass }, ref) {
                     <ButtonDefault
                         to={getPortfolioLink(item)}
                         className="mt-30"
-                        text="View Case"
+                        text="Learn More"
                         icon={faAngleRight}
                     />
                 </div>
