@@ -69,7 +69,7 @@ function Demo3(props) {
                                 <br />- Who I will be?
                             </h6>
                             <p ref={ref}>
-                                To answer the first of the 3 questions, I am
+                                To answer the first of the three questions, I am
                                 currently an aspiring software developer as well
                                 as someone who wishes to push their limits both
                                 physically and mentally. I am trying to improve
@@ -78,7 +78,7 @@ function Demo3(props) {
                                 hard.
                                 <br />
                                 <br />
-                                To answer the second of the 3 questions, I wish
+                                To answer the second of the three questions, I wish
                                 to be someone that people would look up to for
                                 discipline and perseverance. I also want to be
                                 someone that is well-connected, hardworking, and
@@ -87,8 +87,8 @@ function Demo3(props) {
                                 people around me in whatever decide I do.
                                 <br />
                                 <br />
-                                To answer the last of the 3 questions, although
-                                I sounds similar to the second question, I
+                                To answer the last of the three questions, although
+                                it sounds similar to the second question, I
                                 believe that there is a fundamental difference
                                 between wanting something and being something
                                 because just simply wanting something won't get
