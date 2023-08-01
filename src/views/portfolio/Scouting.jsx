@@ -55,7 +55,7 @@ const NovaraConic = ({ data }) => {
                         We use data to see which team is good and which team is
                         bad. The scouting app's frontend is built off of Next.js
                         and the backend is built with Neo4j. This app allows the
-                        team's scoutings to record the data which would get
+                        team's scouts to record the data which would get
                         transported into a database to be processed.
                     </p>
                 </FadeUpTrigger>
@@ -78,8 +78,8 @@ const NovaraConic = ({ data }) => {
                                 What Did I Do?
                             </h2>
                             <h6 ref={ref}>
-                                I worked on the frontend of the scouting app
-                                where I first learned React which proved to be a
+                                I worked on the frontend of the scouting app, 
+                                where I first learned React, which proved to be a
                                 really useful framework (also what I built this
                                 website off of).
                             </h6>
@@ -87,10 +87,7 @@ const NovaraConic = ({ data }) => {
                                 I implemented a defensive timer where it can
                                 time and log values. This is useful for
                                 recording how long each time spent playing
-                                defense. In addition, I also created an
-                                interactive app where the scouts cn click and
-                                the position of the click on the tablet would be
-                                logged and sent to the database.
+                                defense. In addition, I also created an interactive app where the scouts can send a position to the database through one click.
                             </p>
                             <div className="button-box" ref={ref}>
                                 <ButtonDefault

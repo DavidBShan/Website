@@ -60,12 +60,12 @@ const Viper = ({ data }) => {
                         mechanical side. <br /> <br />
                         You know what is better than building a robot?
                         <br /> <br />
-                        Programming a robot <br />
+                        Programming a robot. <br />
                         <br />
                         (Might need to hide from other people on the team after
                         this...)
                         <br /> <br />
-                        Anyways,our robot used a lot of technologies to be
+                        Anyways, our robot used a lot of technologies to be
                         programmed. This included the incorporation of gyro
                         sensors, limelight, CANivore, and much more. However,
                         that being said, I mainly worked on getting the CANivore
@@ -122,22 +122,22 @@ const Viper = ({ data }) => {
                             </h2>
                             <h6 ref={ref}>
                                 To put it simply, Team 610 is by far the best
-                                club at Crescent School and I strongly recommend
-                                anyone that goes to Crescent School to tryout
-                                and if you don't?? Then find another FRC team
+                                team at Crescent School and I strongly recommend
+                                anyone that goes to Crescent School to tryout.
+                                If you don't?? Find another FRC team
                                 that competes, because it was such a fun time
                                 working on and programming the robot.
                             </h6>
                             <p ref={ref}>
                                 I think that our team did very well at
-                                competitions this year and I believe that we can
-                                do even better next year and I am really looking
+                                competitions this year, I believe that we can
+                                do even better next year, and I am really looking
                                 forward to working on the robot next year. I
                                 have already written the code for swerve drive
-                                next year which is going to be fun to test out.
+                                next year.
                                 All in all, I learned so much at the
                                 competitions from the more experienced people on
-                                the team and got close to many of the people on
+                                the team, got close to many of the people on
                                 the team as well and got to know more people
                                 which was awesome.
                             </p>

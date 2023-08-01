@@ -60,8 +60,8 @@ const TimeTagWatch = ({ data }) => {
                     <p className="mt-20">
                         During this internship, I had the opportunity to work in
                         a team of industry professionals. As an intern, I first
-                        learned about how the company work through the
-                        onboarding session as well as the department-wide
+                        learned about how the company works through the
+                        onboarding session, as well as the department-wide
                         lessons for new hires. Through this process, I was able
                         to learn many concepts that I have never heard of before
                         like Gateway Servers, Unit and Integration Test, CI/CD

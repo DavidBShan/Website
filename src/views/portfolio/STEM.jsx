@@ -48,7 +48,7 @@ const STEM = ({ data }) => {
                 </TextTrigger>
                 <FadeUpTrigger>
                     <p className="mt-20">
-                        Quite frankly, I have been working with STEM for most of
+                        I have been working with STEM for most of
                         my life and here are just some of my achievements
                         related to STEM:
                         <br /> <br />
@@ -130,7 +130,7 @@ const STEM = ({ data }) => {
                                 students from diverse backgrounds. In the
                                 EduFirst group, I held tutoring sessions where I
                                 would teach students a variety of languages
-                                while keeping them engaged. (See above for more)
+                                while keeping them engaged (See above for more). 
                             </p>
                         </div>
                     )}

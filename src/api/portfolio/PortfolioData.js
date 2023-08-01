@@ -96,7 +96,7 @@ const data = [
     },
     {
         id: 8,
-        title: "Misc",
+        title: "Miscellaneous",
         slug: "misc",
         category: ["Miscellaneous"],
         src: "/assets/img/portfolio/TableTennis.jpg",

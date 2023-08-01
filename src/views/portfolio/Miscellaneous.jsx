@@ -118,11 +118,10 @@ const NovaraConic = ({ data }) => {
                                 Guang Hua Chinese Library
                             </h2>
                             <h6 ref={ref}>
-                                Back when I was living in the US back in grade
-                                6, I was going to a school over the weekends and
-                                something I noticed is that many of the kids
+                                Back when I was living in the US back in sixth grade, I was going to a school over the weekends and
+                                something I noticed is that many of the kids, 
                                 including me didn't have a lot of books to read,
-                                so I started a chinese language library which is
+                                so I started a Chinese language library, which is
                                 still going on in Blue Bell, Pennsylvania. It
                                 has hundreds of books and lots of visitors every
                                 weekend when the school runs.

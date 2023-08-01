@@ -111,17 +111,12 @@ const SubsidizedHousing = ({ data }) => {
                         dataset, cleaning the data, and writing the code. So in
                         order to find new reliable data, I went on a couple of
                         places, namely, Canada Crime Index and Statistics
-                        Canada. Then to decide how to code and what kind of data
-                        to use, we first decided to look at the percentage of
-                        subsidized housing per city and compare that with the
-                        crime index for that particular city, and the scope of
-                        this research is limited to the largest cities in
-                        Canada. Following that, to clean the code, I wrote a
-                        code to remove all the commas as well as removing all
+                        Canada. Then, to decide how the code would be written and what kind of data to use, we first decided to look at the percentage of subsidized housing per city and compare that with the crime index for that particular city; the scope of this research is limited to the largest cities in Canada. Following that, to clean the code, I wrote a
+                        script to remove all the commas as well as removing all
                         columns that even have one missing data so that data
                         won't be skewed. What we looked at was the correlation
-                        between the two values as well as a linear regression
-                        line and finally a standard deviation of residuals.
+                        between the two values, as well as a linear regression
+                        line, and finally a standard deviation of residuals.
                     </p>
                     <ButtonProject
                         className="mt-20"
@@ -147,15 +142,7 @@ const SubsidizedHousing = ({ data }) => {
                             <h2 ref={ref}>Finalists & Big Data Day</h2>
 
                             <p className="mt-30" ref={ref}>
-                                Through this project, we were able to be
-                                finalists in this project and we were invited to
-                                go to Big Data Day where I was able to meet Her
-                                Honour, Elizabeth Dowdeswell (Lieutenant
-                                Governor of Ontario) as well as present my teams
-                                findings along with my team and connect with
-                                people working in the data science field and
-                                listen to their experiences which was really
-                                enriching.
+                            Through this project, we were able to become finalists in this project and we were invited to go to Big Data Day where I was able to meet Her Honour, Elizabeth Dowdeswell (Lieutenant Governor of Ontario). My team and I were also able to present our findings and connect with people working in the data science field, as well as listen to their experiences, a truly enriching experience.
                             </p>
                         </React.Fragment>
                     )}
