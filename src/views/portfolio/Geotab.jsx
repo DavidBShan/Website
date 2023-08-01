@@ -104,16 +104,15 @@ const TimeTagWatch = ({ data }) => {
                                 What I Learned
                             </h2>
                             <h6 ref={ref}>
-                                Overall, the experience was amazing and Geotab
-                                is genuinely a company that cares about its
-                                employees which can be seen by the awesome
+                                Overall, the experience was amazing and Geotab is a company that genuinely cares about its
+                                employees, which can be seen by the awesome
                                 coffee machines everywhere and the delicious
-                                lunches
+                                lunches.
                             </h6>
                             <p ref={ref}>
-                                However, more importantly, I have learned so
-                                much from the 2 month that I have been working
-                                at Geotab because I was able to have a feel
+                                More importantly, I have learned so
+                                much from the two month that I have been working
+                                at Geotab, because I was able to have a feel
                                 about how a large company operates as well as
                                 the feeling of working with such a big code
                                 project which isn't something that I can get
