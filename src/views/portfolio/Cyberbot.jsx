@@ -55,18 +55,18 @@ const TimeTagWatch = ({ data }) => {
                             <p className="mt-20" ref={ref}>
                                 Cyberbot's inspiration comes from the fact that
                                 although Discord is a widely used social
-                                platform, there isn't much tools used to help
-                                with voice calls. So Cyberbot aims to solve two
+                                platform, there aren't much tools used to help
+                                with voice calls. Cyberbot aims to solve two
                                 problems in one bot. The first problem is the
                                 fact that in today's society, there has been
-                                cyber bullying all around the world and Cyberbot
+                                cyberbullying all around the world and Cyberbot
                                 is able to monitor the voice call, capture the
-                                sound, turn them into text, and do analysis on
+                                sound, turn it into text, and do analysis on
                                 the text based on a custom "prohibited word
                                 list" that can be made by the user. In addition,
                                 Cyberbot also has the capability to connect
                                 people all around the world with its translation
-                                feature as well which uses the Google Translate
+                                feature as well, by using the Google Translate
                                 package.
                             </p>
                         </>
@@ -92,21 +92,21 @@ const TimeTagWatch = ({ data }) => {
                             </h2>
                             <h6 ref={ref}>
                                 The bot uses multiple packages including the
-                                Google Cloud/Speech as well as the Google
+                                Google Cloud/Speech, as well as the Google
                                 Translate package. The sound is first recorded
-                                using the DiscordJs Voice package which gets
-                                sent to a mp4 file which would get sent into a
+                                using the DiscordJS Voice package which gets
+                                turned into a mp4 file which would get sent into a
                                 bucket for the Google Cloud Speech to turn into
                                 a transcription. Using that transcription, the
-                                words could get processed one of two ways, it
-                                could either get analyzed for "prohibited words"
+                                words could get processed one of two ways: it
+                                could either get analyzed for "prohibited words",
                                 and if it exists, then the data would get sent
                                 to a TiDB Server which is ran off of MySQL.
                                 Another option is the Google Translate package
                                 would be used to turn the sound into another
                                 language which would later get read back using a
-                                combination of the discordjs package and the
-                                google translate package.
+                                combination of the DiscordJS package and the
+                                Google Translate package.
                             </h6>
                             <p ref={ref}>
                                 I think the most important lesson I learned from

@@ -12,7 +12,7 @@ const ServicesDetails = [
   },
   {
     title: 'Mathematics',
-    description: `From being invited to AIME, to being the co-head of the math club at Crescent School, I have been working with math and doing all sorts of contest for, frankly, most of my life. I am experienced in both the theoretical as well as the practical elements of mathematics, being a finalist in the High School Big Data Challenge as well as trying to apply my math knowledge anywhere I can from robotics to school projects where I aim to incooperate working with big data and doing data analysis.`
+    description: `From being invited to AIME, to being the co-head of the math club at Crescent School, I have been working with math and doing all sorts of contest for, frankly, most of my life. I am experienced in both the theoretical as well as the practical elements of mathematics, being a finalist in the High School Big Data Challenge as well as trying to apply my math knowledge anywhere I can from robotics to school projects where I aim to incorporate working with big data and doing data analysis.`
   },
   {
     title: 'Algorithmic Analysis',
@@ -20,7 +20,7 @@ const ServicesDetails = [
   },
   {
     title: 'Robotics Programming',
-    description: `As a programmer on Team 610 which competes in the First Robotics Competition (FRC), I have learned and implemented all sorts of knowledge that are crucial in creating a winning robot, like PID Control (Proportional-Integral-Derivative Feedback Control) as well as Using limelight to reset the odometry of the robot.`
+    description: `As a programmer on Team 610, which competes in the First Robotics Competition (FRC), I have learned and implemented all sorts of knowledge that are crucial in creating a winning robot, like PID Control (Proportional-Integral-Derivative Feedback Control) as well as using limelight to reset the odometry of the robot.`
   }
 ]
 
