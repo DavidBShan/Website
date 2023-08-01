@@ -63,17 +63,17 @@ const TimeTagWatch = ({ data }) => {
                         learned about how the company works through the
                         onboarding session, as well as the department-wide
                         lessons for new hires. Through this process, I was able
-                        to learn many concepts that I have never heard of before
+                        to learn many concepts that I have never heard of before,
                         like Gateway Servers, Unit and Integration Test, CI/CD
                         (Continuous Integration and Continuous Deployment), as
                         well as pipelines. Throughout my time at Geotab, I first
                         investigated the company's coding structure by migrating
-                        unit tests from QUnit and Sinon to Jest which allows for
-                        the tests to run directly from the terminal, during that
-                        time I also participated in code review from my
-                        teammates. Then, following that I was working on an
+                        unit tests from QUnit and Sinon to Jest, which allows for
+                        the tests to run directly from the terminal. During that
+                        time, I also participated in code review from my
+                        teammates. Following that, I was working on a
                         React app to convert files and use webscraping to
-                        validate the data that Geotab is getting to the official
+                        validate the statistics that Geotab is getting to the official
                         government data.
                     </p>
                     <ButtonProject
