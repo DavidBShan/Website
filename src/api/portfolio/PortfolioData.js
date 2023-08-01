@@ -15,8 +15,8 @@ const data = [
         category: ["Software Development"],
         description:
             "Geotab is a telematics company based in Oakville, Canada where I interned for 2 months, during that time I worked with many industry professionals, participated in code review, worked with unit tests, and created a React app for the company.",
-        src: "/assets/img/portfolio/Geotab.jpg",
-        srcSlider: "/assets/img/portfolio/Geotab.jpg",
+        src: "/assets/img/portfolio/Geotab.png",
+        srcSlider: "/assets/img/portfolio/Geotab.png",
         overlay: 2,
         component: (props) => <Geotab {...props} />,
     },

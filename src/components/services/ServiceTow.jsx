@@ -8,7 +8,7 @@ import { dsnCN } from '../../hooks/helper'
 const ServicesDetails = [
   {
     title: 'Software Development',
-    description: `As an intern at Geotab as well as participating in multiple hackathons and working on a wide array of projects, I have an abundant amount of experience with all aspects of software development ranging from frontend to backend. I have worked with a wide array of frameworks ranging from React to Backbone. I also have copious amounts of experience with unit testing.`
+    description: `As an intern at Geotab, as well as participating in multiple hackathons, and working on a wide array of projects, I have an abundant amount of experience with all aspects of software development ranging from frontend to backend. I have worked with a wide array of frameworks ranging from React to Backbone. I also have copious amounts of experience with unit testing.`
   },
   {
     title: 'Mathematics',

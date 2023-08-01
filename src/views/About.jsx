@@ -15,7 +15,7 @@ import { Helmet } from "react-helmet";
 
 const headerContent = {
     title: "About Me",
-    description: `Feel free to book a meeting with me to talk about programming, math, mindset, self-improvement, and, quite frankly, anything that piques your interest`,
+    description: `Feel free to book a meeting with me to talk about programming, math, mindset, self-improvement, and, quite frankly, anything that piques your interest.`,
 };
 
 function About() {
@@ -44,7 +44,7 @@ function About() {
                 <FadeUpTrigger>
                     <h3>My Values</h3>
                     <p className="mt-30 m-w750 dsn-auto">
-                        There are many beliefs that I have but one overweighs
+                        There are many beliefs that I have, but one overweighs
                         all and that is hard-work. I believe that if someone
                         really wants something and genuinely work hard for it,
                         they can achieve it.
@@ -60,8 +60,8 @@ function About() {
                         the day before.
                         <br />
                         <br />
-                        Lastly, I believe in being stoic and controlling my
-                        emotions and thinking logically and analyzing my
+                        Lastly, I believe in being stoic, controlling my
+                        emotions, thinking logically, analyzing my
                         emotions and my current situation to decide the best
                         solution.
                     </p>
