@@ -60,7 +60,7 @@ function Demo3(props) {
                             </h2>
                             <h6 ref={ref}>
                                 This question is something I have been asking
-                                myself constantly, I believe that in order to
+                                myself constantly. I believe that in order to
                                 figure out who I am, there are several aspects:
                                 <br />
                                 - Who I am currently am?
