@@ -84,7 +84,7 @@ function About() {
             <section className="section-margin background-section section-padding">
                 <Container className="dsn-right-container">
                     <TitleSection description="Movies">
-                        Movies That Inspire Me
+                        Movies That I Enjoy
                     </TitleSection>
                     <Movie loop grabCursor />
                 </Container>
