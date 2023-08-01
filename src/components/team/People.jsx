@@ -34,11 +34,6 @@ const PeopleDetails = [
         subTitle: "Knowledge",
     },
     {
-        src: "/assets/img/people/Shapiro.jpg",
-        title: "Ben Shapiro",
-        subTitle: "Reasoning",
-    },
-    {
         src: "/assets/img/people/Marcus.jpg",
         title: "Marcus Aurelius",
         subTitle: "Stoicism",
