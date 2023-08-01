@@ -21,7 +21,7 @@ function Footer({ className, ...restProps }) {
               <h4 className="footer-title">Navigation</h4>
               <MenuFooter />
             </div>
-            <div style={{ marginTop: '65px', marginLeft: '150px'}}>
+            <div style={{ marginTop: '65px', marginLeft: '195px'}}>
               <NavLink to="/">
                 <img src="/assets/img/logo/logo.png"/>
               </NavLink>
