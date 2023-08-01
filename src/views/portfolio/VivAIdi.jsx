@@ -40,7 +40,7 @@ const VivAIdi = ({ data }) => {
                 <TextTrigger duration={0.8} stagger={0.1}>
                     {(ref) => (
                         <h2 className="title-section" ref={ref}>
-                            What is VivAIdi
+                            What is VivAIdi?
                         </h2>
                     )}
                 </TextTrigger>
@@ -81,19 +81,19 @@ const VivAIdi = ({ data }) => {
             {/*Start Info Box*/}
             <Container className="p-relative section-margin text-center">
                 <TitleCover>Lessons</TitleCover>
-                <TextTrigger duration={0.5} stagger={0.1}>
+                <TextTrigger duration={0.3} stagger={0.1}>
                     {(ref) => (
                         <h5 className="m-w750 dsn-auto" ref={ref}>
-                            This project was actually my first hackathon so I
+                            This project was actually my first hackathon, so I
                             learned a lot about how it is ran and how it works.
                             In addition, this was my first time working with
                             desktop apps rather than webapps so that was really
                             enriching. However, I think what is most important
-                            is the obstacles that I overcame, because I was in
-                            charge of turning the audio file into a MIDI file
+                            are the obstacles that I overcame, because I was in
+                            charge of turning the audio file into a MIDI file,
                             but that turned out to be a roadblock for our team
-                            since there isn't a lot of resources for doing that.
-                            So we improvised and took code from a tuner where it
+                            since there aren't a lot of resources for doing that.
+                            So, we improvised and took code from a tuner where it
                             was giving the sound pitch and we were able to
                             process that data to make it work.
                         </h5>
