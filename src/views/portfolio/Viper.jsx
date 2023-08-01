@@ -56,7 +56,7 @@ const Viper = ({ data }) => {
                         Frankly, I have no idea how the robot was built except I
                         know there is a tron wheel and said tron wheel turns and
                         it also used motors, a RobotRIO, and limit switches. I
-                        am definately not the guy to ask for help on the
+                        am definitely not the guy to ask for help on the
                         mechanical side. <br /> <br />
                         You know what is better than building a robot?
                         <br /> <br />
