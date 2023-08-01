@@ -98,6 +98,13 @@ function Demo3(props) {
                                 huge difference in the world and becoming who I
                                 aspire to be
                             </p>
+                            <div className="button-box" style={{ marginTop: "20px" }}>
+                                <ButtonDefault
+                                    text="Learn More"
+                                    icon={faAngleRight}
+                                    href="/about"
+                                />
+                            </div>
                         </DsnGrid>
                     )}
                 </FadeUpTrigger>
@@ -108,6 +115,13 @@ function Demo3(props) {
             <Container className="section-margin">
                 <TitleSection description="My Skillset">Skills</TitleSection>
                 <ServiceTow col={2} colMobile={1} />
+                <div className="button-box" style={{ marginTop: "20px" }}>
+                    <ButtonDefault
+                        text="Learn More"
+                        icon={faAngleRight}
+                        href="/skills"
+                    />
+                </div>
             </Container>
             {/* End Service Section */}
 
