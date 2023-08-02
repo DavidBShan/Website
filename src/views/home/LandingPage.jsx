@@ -8,18 +8,23 @@ import TitleSection from "../../components/heading/TitleSection";
 import ServiceTow from "../../components/services/ServiceTow";
 import FadeUpTrigger from "../../animation/FadeUpTrigger";
 import ButtonDefault from "../../components/button/button-default/ButtonDefault";
+import HeroSectionTow from "../../components/hero-section/HeroSectionTow";
 import PortfolioSwiper from "../../components/portfolio/PortfolioSwiper";
 import BoxImageVertical from "../../components/box-image-vertical/BoxImageVertical";
 import TitleCover from "../../components/heading/title-cover/TitleCover";
 import DsnGrid from "../../components/DsnGrid";
+import Testimonial from "../../components/testimonial/Testimonial";
+import BlogSwiper from "../../components/blog/BlogSwiper";
+import BrandClient from "../../components/brand-client/BrandClient";
+import NextPageContent from "../../components/next/NextPageContent";
 import Footer from "../../components/footer/Footer";
 import { Helmet } from "react-helmet";
 
 const heroContent = {
     title: "David Shan",
-    src: "/assets/img/main.mp4",
+    src: "//theme.dsngrid.com/video/videos.mp4",
     video: {
-        poster: "/assets/img/main.jpg",
+        poster: "/assets/img/video-bg.jpg",
         loop: true,
     },
     subTitle: "Hi, I am",
