@@ -42,6 +42,10 @@ const PeopleDetails = [
         src: "/assets/img/people/Kobe.jpg",
         title: "Kobe Bryant",
         subTitle: "Hard-work",
+    },{
+        src: "/assets/img/people/CBum.jpg",
+        title: "Chris Bumstead",
+        subTitle: "Fitness"
     },
 ];
 
