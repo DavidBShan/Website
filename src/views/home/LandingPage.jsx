@@ -22,9 +22,9 @@ import { Helmet } from "react-helmet";
 
 const heroContent = {
     title: "David Shan",
-    src: "//theme.dsngrid.com/video/videos.mp4",
+    src: "/assets/img/main.mp4",
     video: {
-        poster: "/assets/img/video-bg.jpg",
+        poster: "/assets/img/main.png",
         loop: true,
     },
     subTitle: "Hi, I am",
