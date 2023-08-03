@@ -30,7 +30,7 @@ const TimeTagWatch = ({ data }) => {
                 heroContent={data}
                 parallax={{ yPercent: 30, scale: 1.1 }}
                 textButton="View Website"
-                href="www.geotab.com"
+                href="https://www.geotab.com/"
                 overlay={data.overlay}
             >
                 <strong className="color-heading">
@@ -125,13 +125,6 @@ const TimeTagWatch = ({ data }) => {
                                 a far greater understanding of programming than
                                 before.
                             </p>
-                            <div className="button-box" ref={ref}>
-                                <ButtonDefault
-                                    text="launch"
-                                    icon={faAngleRight}
-                                    href="#0"
-                                />
-                            </div>
                         </DsnGrid>
                     )}
                 </FadeUpTrigger>

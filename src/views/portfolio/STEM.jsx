@@ -8,7 +8,6 @@ import TextTrigger from "../../animation/TextTrigger";
 //--> Component
 import TitleCover from "../../components/heading/title-cover/TitleCover";
 import ButtonProject from "../../components/button/button-project/ButtonProject";
-import ParallaxImage from "../../components/parallax-image/ParallaxImage";
 import NextProject from "../../components/next/NextProject";
 import HeaderFull from "../../components/header/HeaderFull";
 import { Helmet } from "react-helmet";

@@ -31,8 +31,8 @@ const Viper = ({ data }) => {
             <HeaderFull
                 heroContent={data}
                 parallax={{ yPercent: 30, scale: 1.1 }}
-                textButton="View Website"
-                href="https://www.behance.net/gallery/57136617/Time-Tag_Watch?tracking_source=search%7Cwatch%20"
+                textButton="View Reveal Video"
+                href="https://www.youtube.com/watch?v=D_yFA-IVL-w&ab_channel=FRCTeam610"
                 overlay={data.overlay}
             >
                 <strong className="color-heading">

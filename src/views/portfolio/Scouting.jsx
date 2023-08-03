@@ -12,7 +12,6 @@ import TitleCover from "../../components/heading/title-cover/TitleCover";
 import ButtonProject from "../../components/button/button-project/ButtonProject";
 import ButtonDefault from "../../components/button/button-default/ButtonDefault";
 import BoxImageVertical from "../../components/box-image-vertical/BoxImageVertical";
-import ParallaxImage from "../../components/parallax-image/ParallaxImage";
 import NextProject from "../../components/next/NextProject";
 import { Helmet } from "react-helmet";
 
