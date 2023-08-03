@@ -135,6 +135,8 @@ const Viper = ({ data }) => {
                                 forward to working on the robot next year. I
                                 have already written the code for swerve drive
                                 next year.
+                                <br/>
+                                <br/>
                                 All in all, I learned so much at the
                                 competitions from the more experienced people on
                                 the team, got close to many of the people on

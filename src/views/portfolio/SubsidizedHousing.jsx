@@ -51,7 +51,10 @@ const SubsidizedHousing = ({ data }) => {
                         housing regardless of their income level. It’s often
                         funded by government programs and offers reduced rent to
                         lower-income families who are unable to afford
-                        market-rate housing. A common belief for subsidized
+                        market-rate housing. 
+                        <br/>
+                        <br/>
+                        A common belief for subsidized
                         housing is that it causes negative consequences that can
                         impact the surrounding community. A positive correlation
                         between the presence of subsidized housing and increased
@@ -61,12 +64,18 @@ const SubsidizedHousing = ({ data }) => {
                         correlated with crime rate. Datasets from Statistics
                         Canada, Our World in Data, and various publicly
                         published data on subsidized housing from Canadian
-                        provinces were gathered. A weak positive correlation
+                        provinces were gathered.
+                        <br/>
+                        <br/>
+                        A weak positive correlation
                         between areas with subsidized housing and areas proxy to
                         its offsets with high crime rates and lower property
                         values was found in the process. The widespread belief
                         that subsidized housing development in a neighborhood
-                        leads to neighborhood decline is false. However,
+                        leads to neighborhood decline is false. 
+                        <br/>
+                        <br/>
+                        However,
                         subsidized housing would be expected to affect
                         neighborhoods only under certain circumstances, and the
                         conflicting findings suggest that is the case. These
@@ -111,7 +120,10 @@ const SubsidizedHousing = ({ data }) => {
                         dataset, cleaning the data, and writing the code. So in
                         order to find new reliable data, I went on a couple of
                         places, namely, Canada Crime Index and Statistics
-                        Canada. Then, to decide how the code would be written and what kind of data to use, we first decided to look at the percentage of subsidized housing per city and compare that with the crime index for that particular city; the scope of this research is limited to the largest cities in Canada. Following that, to clean the code, I wrote a
+                        Canada. 
+                        <br/>
+                        <br/>
+                        Then, to decide how the code would be written and what kind of data to use, we first decided to look at the percentage of subsidized housing per city and compare that with the crime index for that particular city; the scope of this research is limited to the largest cities in Canada. Following that, to clean the code, I wrote a
                         script to remove all the commas as well as removing all
                         columns that even have one missing data so that data
                         won't be skewed. What we looked at was the correlation
@@ -142,7 +154,9 @@ const SubsidizedHousing = ({ data }) => {
                             <h2 ref={ref}>Finalists & Big Data Day</h2>
 
                             <p className="mt-30" ref={ref}>
-                            Through this project, we were able to become finalists in this project and we were invited to go to Big Data Day where I was able to meet Her Honour, Elizabeth Dowdeswell (Lieutenant Governor of Ontario). My team and I were also able to present our findings and connect with people working in the data science field, as well as listen to their experiences, a truly enriching experience.
+                            Through this project, we were able to become finalists in this project and we were invited to go to Big Data Day where I was able to meet Her Honour, Elizabeth Dowdeswell (Lieutenant Governor of Ontario). <br/>
+                            <br/>
+                            My team and I were also able to present our findings and connect with people working in the data science field, as well as listen to their experiences, a truly enriching experience.
                             </p>
                         </React.Fragment>
                     )}

@@ -11,15 +11,8 @@ import TitleCover from "../../components/heading/title-cover/TitleCover";
 import FadeUpTrigger from "../../animation/FadeUpTrigger";
 import TextTrigger from "../../animation/TextTrigger";
 import ButtonProject from "../../components/button/button-project/ButtonProject";
-import BoxGallery, {
-    BoxGalleryItem,
-} from "../../components/box-gallery/BoxGallery";
 import ButtonDefault from "../../components/button/button-default/ButtonDefault";
 import BoxImageVertical from "../../components/box-image-vertical/BoxImageVertical";
-import ParallaxImage from "../../components/parallax-image/ParallaxImage";
-import ButtonPopup from "../../components/button/button-popup/ButtonPopup";
-import MoveBox from "../../components/move-box/MoveBox";
-import FJustifiedGallery from "../../components/justified-gallery/FJustifiedGallery";
 import NextProject from "../../components/next/NextProject";
 import { Helmet } from "react-helmet";
 
@@ -62,11 +55,17 @@ const TimeTagWatch = ({ data }) => {
                         a team of industry professionals. As an intern, I first
                         learned about how the company works through the
                         onboarding session, as well as the department-wide
-                        lessons for new hires. Through this process, I was able
+                        lessons for new hires. 
+                        <br/>
+                        <br/>
+                        Through this process, I was able
                         to learn many concepts that I have never heard of before,
                         like Gateway Servers, Unit and Integration Test, CI/CD
                         (Continuous Integration and Continuous Deployment), as
-                        well as pipelines. Throughout my time at Geotab, I first
+                        well as pipelines. 
+                        <br/>
+                        <br/>
+                        Throughout my time at Geotab, I first
                         investigated the company's coding structure by migrating
                         unit tests from QUnit and Sinon to Jest, which allows for
                         the tests to run directly from the terminal. During that
@@ -116,7 +115,10 @@ const TimeTagWatch = ({ data }) => {
                                 about how a large company operates, as well as
                                 the feeling of working with such a big code
                                 project, which isn't something that I can get
-                                when working with my personal projects. Lastly,
+                                when working with my personal projects. 
+                                <br/>
+                                <br/>
+                                Lastly,
                                 I have learned so many new concepts
                                 that I couldn't have learned any other way, I
                                 was also able to work with those concepts and develop

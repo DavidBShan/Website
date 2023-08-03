@@ -56,8 +56,11 @@ const TimeTagWatch = ({ data }) => {
                                 Cyberbot's inspiration comes from the fact that
                                 although Discord is a widely used social
                                 platform, there aren't much tools used to help
-                                with voice calls. Cyberbot aims to solve two
-                                problems in one bot. The first problem is the
+                                with voice calls.
+                                <br/>
+                                <br/>
+                                Cyberbot aims to solve two
+                                problems with one bot. The first problem is the
                                 fact that in today's society, there has been
                                 cyberbullying all around the world and Cyberbot
                                 is able to monitor the voice call, capture the
@@ -97,11 +100,16 @@ const TimeTagWatch = ({ data }) => {
                                 using the DiscordJS Voice package which gets
                                 turned into a mp4 file which would get sent into a
                                 bucket for the Google Cloud Speech to turn into
-                                a transcription. Using that transcription, the
+                                a transcription. 
+                                <br/>
+                                <br/>
+                                Using that transcription, the
                                 words could get processed one of two ways: it
                                 could either get analyzed for "prohibited words",
                                 and if it exists, then the data would get sent
                                 to a TiDB Server which is ran off of MySQL.
+                                <br/>
+                                <br/>
                                 Another option is the Google Translate package
                                 would be used to turn the sound into another
                                 language which would later get read back using a

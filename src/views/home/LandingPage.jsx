@@ -92,7 +92,10 @@ function Demo3(props) {
                                 believe that there is a fundamental difference
                                 between wanting something and being something,
                                 because just simply wanting something won't get
-                                anyone anywhere. I believe that it is crucial to
+                                anyone anywhere. 
+                                <br/>
+                                <br/>
+                                I believe that it is crucial to
                                 work hard to achieve what I genuinely want. I
                                 believe that, in the future, I would be making a
                                 huge difference in the world and becoming who I
