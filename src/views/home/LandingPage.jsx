@@ -63,7 +63,7 @@ function Demo3(props) {
                                 myself constantly. I believe that in order to
                                 figure out who I am, there are several aspects:
                                 <br />
-                                - Who I am currently am?
+                                - Who I currently am?
                                 <br />
                                 - Who I aspire to be?
                                 <br />- Who I will be?
