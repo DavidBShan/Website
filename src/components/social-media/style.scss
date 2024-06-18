@@ -13,8 +13,8 @@
     border-radius: 50%;
     letter-spacing: 0;
     border: 1px solid $border-color;
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 
@@ -69,34 +69,33 @@
   }
 
   .social-network {
-    margin-left: 75px;
-    overflow: hidden;
-    will-change: transform;
-    display: flex;
-    align-items: center;
+  margin-left: 75px;
+  overflow: hidden;
+  will-change: transform;
+  display: flex;
+  align-items: center;
 
-    li {
-      opacity: 0;
-      visibility: hidden;
-      transform-origin: top left;
-      font-size: 16px;
-      margin-right: 30px;
-      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      transform: translateY(5px) rotate(10deg);
+  li {
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top left;
+    font-size: 16px;
+    margin-right: 25px; /* Adjusted from 30px to 25px for tighter spacing */
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateY(5px) rotate(10deg);
 
-      a {
-        width: 100%;
-      }
+    a {
+      width: 100%;
+    }
 
-      svg {
-        fill: $heading-color;
-        width: 16px;
-        height: 16px;
-        cursor: pointer;
-      }
+    svg {
+      fill: $heading-color;
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
     }
   }
-
+}
   &:hover {
     .social-icon:after {
       width: 40px;

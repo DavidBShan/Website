@@ -5,8 +5,6 @@ import useEffectLocation from "../hooks/useEffectLocation";
 
 import "./style.scss";
 
-const Skills = React.lazy(() => import("../views/Skills"));
-
 const LandingPage = React.lazy(() => import("../views/home/LandingPage"));
 
 const Slider = React.lazy(() => import("../views/Slider"));
@@ -14,7 +12,6 @@ const Work = React.lazy(() => import("../views/Work"));
 const ProjectDetails = React.lazy(() =>
     import("../views/portfolio/ProjectDetails")
 );
-
 const About = React.lazy(() => import("../views/About"));
 const Contact = React.lazy(() => import("../views/Contact"));
 const BlogDetails = React.lazy(() => import("../views/blog/BlogDetails"));
@@ -56,7 +53,6 @@ const Router = () => {
                     />
 
                     <Route exact path="/about" element={<About />} />
-                    <Route exact path="/skills" element={<Skills />} />
                     <Route exact path="/contact" element={<Contact />} />
                     <Route
                         exact

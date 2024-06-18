@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { dsnCN } from '../../hooks/helper'
 import './style.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMedium, faLinkedin, faLetterboxd } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faBookmark, faVideo } from '@fortawesome/free-solid-svg-icons'
 import { splittingItems } from '../../hooks/Spltting'
 import PropTypes from 'prop-types'
@@ -18,7 +18,8 @@ function SocialMedia ({ className }) {
     { link: 'https://substack.com/@davidshan', icon: faBookmark }, // Replace with the actual homepage URL
     { link: 'https://www.linkedin.com/in/david-shan-076a39265/', icon: faLinkedin }, // Replace with the actual homepage URL
     { link: 'mailto:davidbshan@gmail.com', icon: faEnvelope }, // Replace with the actual email address
-    { link: 'https://calendly.com/davidbshan/30min', icon: faVideo } // Replace with the actual homepage URL
+    { link: 'https://calendly.com/davidbshan/15min', icon: faVideo }, // Replace with the actual homepage URL
+    { link: 'https://letterboxd.com/chickenmcswag/', icon: faLetterboxd }
   ]
 
   useEffect(() => {

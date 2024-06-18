@@ -6,7 +6,6 @@ import MenuContent from "./MenuContent";
 const menuContent = [
     { name: "Home", to: "/" },
     { name: "About Me", to: "/about" },
-    { name: "Skills", to: "/skills" },
     { name: "Portfolio", to: "/slider" },
     { name: "Contact Me", to: "/contact" },
 ];

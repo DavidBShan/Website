@@ -1,6 +1,7 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { Button, Container, Row, Col } from "react-bootstrap";
+import { faAngleRight, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import HeaderFull from "../../components/header/HeaderFull";
 import HeroSection from "../../components/hero-section/HeroSection";
@@ -67,14 +68,14 @@ function Demo3(props) {
                                 "He who has a why to live can bear almost any how." - Friedrich Nietzsche
                                 <br></br>
                                 <br></br>
-                                Throughout my life, my search for meaning changes along with my view of the world, in turn, my answer of who I am changes.  
+                                Throughout my life, my search for meaning changes along with my view of the world. In turn, my answer of who I am changes.  
                                 <br></br>
                                 <br></br>
                                 Nowadays, what I choose to devote my energy to is a combination of meeting interesting people, 
                                 making an impact, and broadening my perspectives.
                                 <br></br>
                                 <br></br>
-                                Paul Graham, in his essay about doing great work, wrote ,"Don't let "work" mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own."
+                                Paul Graham, in his essay about doing great work, wrote," Don't let 'work' mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own."
                                 <br></br>
                                 <br></br>
                                 This path has led me to develop my own interests and build
@@ -83,14 +84,7 @@ function Demo3(props) {
                                 students with developmental disabilities can discover their artistic talents.
                                 <br></br>
                                 <br></br>
-                            </p>{/*meeting people (LinkedIn)
-                                making an impact (Project Page)
-                                broadening my perspective (Reading list)
-                                Meaningful work (PG Essay)
-                                Tiresias
-                                Aceflow
-                                Research Paper
-                                Iris*/}
+                            </p>
                             <div className="button-box" style={{ marginTop: "20px" }}>
                                 <ButtonDefault
                                     text="Learn More"
@@ -102,33 +96,47 @@ function Demo3(props) {
                     )}
                 </FadeUpTrigger>
             </BoxImageVertical>
-            {/* End  Box Info With Image */}
-
-            {/* Start Service Section */}
-            <Container className="section-margin">
-                <TitleSection description="My Skillset">Skills</TitleSection>
-                <ServiceTow col={2} colMobile={1} />
-                <div className="button-box" style={{ marginTop: "20px" }}>
-                    <ButtonDefault
-                        text="Learn More"
-                        icon={faAngleRight}
-                        href="/skills"
-                    />
-                </div>
-            </Container>
-            {/* End Service Section */}
-
-            {/* Start Portfolio Swiper */}
             <Container
                 as={TitleSection}
                 description="My Work"
                 className="mt-section"
             >
-                Projects & Achievements
+                Projects
             </Container>
-            <PortfolioSwiper className="mb-section" grabCursor autoplay />
+            <div style={{ marginLeft: "12vh", marginTop: "-3vh", padding: "20px", borderRadius: "8px" }}>
+    <ul style={{ listStyleType: "circle", fontSize: "18px", lineHeight: "3.75vh" }}>
+        <li>○ Meeting interesting people - Engaging with diverse individuals broadens my perspective and enriches my life.</li>
+        <li>○ Making an impact - Contributing to projects and initiatives that have a positive effect on society.</li>
+        <li>○ Broadening my perspectives - Continuously learning and exploring new ideas to expand my understanding of the world.</li>
+    </ul>
+</div>
+            <div className="button-box" style={{ marginLeft: "7vh", marginTop: "5vh" }}>
+                <ButtonDefault
+                    text="Learn More"
+                    icon={faAngleRight}
+                    href="/about"
+                />
+            </div>
+            <Container className="section-margin dsn-right-container" style={{ textAlign: "center", border: "2px solid white", padding: "20px", marginBottom: "10vh", marginLeft: "7vh"}}>
+                <Button
+                    href="/DavidResume.pdf"
+                    download
+                    variant="dark"
+                    style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        fontSize: "20px",
+                        padding: "15px 30px",
+                    }}
+                >
+                    <FontAwesomeIcon icon={faDownload} style={{ marginRight: "8px" }} />
+                    RESUME (VER. JUN 18 2024)
+                </Button>
+            </Container>
             {/* End Portfolio Swiper */}
             <Footer />
+            
         </React.Fragment>
     );
 }

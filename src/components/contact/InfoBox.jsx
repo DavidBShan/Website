@@ -26,8 +26,8 @@ function InfoBox({className}) {
                     <a href="mailto:davidbshan@gmail.com" target="_blank" rel="noreferrer">davidbshan@gmail.com</a>
                 </li>
                 <li>
-                     <span className="mr-10">Calendly</span>
-                    <a href="https://calendly.com/davidbshan/30min?month=2023-07" target="_blank" rel="noreferrer">Schedule A Meeting With Me!</a>
+                    <span className="mr-10">Calendly</span>
+                    <a href="https://calendly.com/davidbshan/15min" target="_blank" rel="noreferrer">Schedule A Meeting With Me!</a>
                 </li>
             </ul>
         </div>

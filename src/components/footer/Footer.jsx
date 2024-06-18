@@ -26,7 +26,7 @@ function Footer({ className, ...restProps }) {
                 <img src="/assets/img/logo/logo.png"/>
               </NavLink>
             </div>
-            <div className="mt-40" style={{ marginTop: '110px', marginLeft: '150px'}}>
+            <div className="mt-40" style={{ marginTop: '12vh', marginLeft: '23vh'}}>
               <SocialMedia />
             </div>
           </DsnGrid>
