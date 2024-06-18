@@ -60,12 +60,37 @@ function Demo3(props) {
                             </h2>
                             <h6 ref={ref}>
                                 It is challenging to characterize oneself in a mere website, yet ironically,
-                                some of your perceptions of me will be based on the next few lines
-                                that I spent an hour writing.
+                                many's perceptions of me will be based on the next few lines
+                                that I spent just a couple hours of my life writing.
                             </h6>
                             <p ref={ref}>
-                                Everyone's perception of me and their answer to who I am is different.
-                            </p>
+                                "He who has a why to live can bear almost any how." - Friedrich Nietzsche
+                                <br></br>
+                                <br></br>
+                                Throughout my life, my search for meaning changes along with my view of the world, in turn, my answer of who I am changes.  
+                                <br></br>
+                                <br></br>
+                                Nowadays, what I choose to devote my energy to is a combination of meeting interesting people, 
+                                making an impact, and broadening my perspectives.
+                                <br></br>
+                                <br></br>
+                                Paul Graham, in his essay about doing great work, wrote ,"Don't let "work" mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own."
+                                <br></br>
+                                <br></br>
+                                This path has led me to develop my own interests and build
+                                for a better world. Where families with elderly can have a peace of mind. Where students can have unlimited study material.
+                                Where villages can have early warning of wildfires through satellite data, and finally where 
+                                students with developmental disabilities can discover their artistic talents.
+                                <br></br>
+                                <br></br>
+                            </p>{/*meeting people (LinkedIn)
+                                making an impact (Project Page)
+                                broadening my perspective (Reading list)
+                                Meaningful work (PG Essay)
+                                Tiresias
+                                Aceflow
+                                Research Paper
+                                Iris*/}
                             <div className="button-box" style={{ marginTop: "20px" }}>
                                 <ButtonDefault
                                     text="Learn More"
