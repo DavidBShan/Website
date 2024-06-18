@@ -75,7 +75,7 @@ function Demo3(props) {
                                 making an impact, and broadening my perspectives.
                                 <br></br>
                                 <br></br>
-                                Paul Graham, in his essay about doing great work, wrote," Don't let 'work' mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own."
+                                Paul Graham, in his essay How To Do Great Work, wrote," Don't let 'work' mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own."
                                 <br></br>
                                 <br></br>
                                 This path has led me to develop my own interests and build
@@ -104,17 +104,28 @@ function Demo3(props) {
                 Projects
             </Container>
             <div style={{ marginLeft: "12vh", marginTop: "-3vh", padding: "20px", borderRadius: "8px" }}>
-    <ul style={{ listStyleType: "circle", fontSize: "18px", lineHeight: "3.75vh" }}>
-        <li>○ Meeting interesting people - Engaging with diverse individuals broadens my perspective and enriches my life.</li>
-        <li>○ Making an impact - Contributing to projects and initiatives that have a positive effect on society.</li>
-        <li>○ Broadening my perspectives - Continuously learning and exploring new ideas to expand my understanding of the world.</li>
-    </ul>
-</div>
-            <div className="button-box" style={{ marginLeft: "7vh", marginTop: "5vh" }}>
+                <ul style={{ listStyleType: "circle", fontSize: "18px", lineHeight: "4vh" }}>
+                    <li>○ Working on a startup in the mining industry, funded for 25,000 dollars by Telora</li>
+                    <li>○ Interning at the biggest telematics company in the world, working on their driver app</li>
+                    <li>○ Researching and patenting device to track elderly's vitals funded for 3000 dollars</li>
+                    <li>○ Heading First Robotic Competition Team 610's programming department</li>
+                    <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
+                    <br></br>
+                    <li>○ Led backend development for Aceflow, an edtech startup advised by Stanford University's Director of Digital Learning Solutions with over 2,000 signups, a revenue generating beta, and funded by Emergent Ventures, Microsoft, and Ingenious+ innovation award</li>
+                    <li>○ Developed Rigid Ramp Walker and Ruler Trick Simulation using Mujoco and 4th-Degree Runge Kutta's method, helping my team win Canadian Youth Physics Tournament gold metal</li>
+                    <li>○ Consulted alongside Google and Microsoft to solve their biggest problems</li>
+                    <li>○ Ideated biomarine carbon capture startup to 10x carbon sequestration in the ocean, winning best overall in that hackathon</li>
+                    <li>○ Published big data research paper on using semantic segmentation to detect wildfires, winning 1000 dollars</li>
+                    <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing</li>
+                    <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
+                    <li>○ Built 10+ hackathon projects, winning hundreds of dollars worth of awards</li>
+                </ul>
+            </div>
+            <div className="button-box" style={{ marginLeft: "7vh", marginTop: "2vh" }}>
                 <ButtonDefault
                     text="Learn More"
                     icon={faAngleRight}
-                    href="/about"
+                    href="/slider"
                 />
             </div>
             <Container className="section-margin dsn-right-container" style={{ textAlign: "center", border: "2px solid white", padding: "20px", marginBottom: "10vh", marginLeft: "7vh"}}>

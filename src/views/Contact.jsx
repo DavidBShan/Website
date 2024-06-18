@@ -35,7 +35,7 @@ function Contact(props) {
                 </DsnGrid>
             </Container>
 
-            <NextPage to="/portfolio" text="See More Works.">
+            <NextPage to="/slider" text="">
                 Portfolio
             </NextPage>
             <Footer />
