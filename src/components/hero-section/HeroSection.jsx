@@ -13,11 +13,11 @@ import ParallaxImage from "../parallax-image/ParallaxImage";
 import { dsnCN } from "../../hooks/helper";
 
 const HeroContent = {
-    title: "Who Am I?",
+    title: "About Me",
     description: "David Shan",
     name: "David Shan",
     authorJob: "Toronto, Canada",
-    age: "16",
+    age: "17",
     ageDescription: "YEARS OLD",
     heroImage: "/assets/img/about.png",
 };
@@ -51,7 +51,7 @@ function HeroSection({ className, ...restProps }) {
                                         sequence={[
                                             "Innovator\n",
                                             1000,
-                                            "Developer\n",
+                                            "Activater\n",
                                             1000,
                                             "Thinker\n",
                                             1000,

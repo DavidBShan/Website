@@ -56,50 +56,15 @@ function Demo3(props) {
                                 className="title-section border-line-left"
                                 ref={ref}
                             >
-                                About Me
+                                Who Am I
                             </h2>
                             <h6 ref={ref}>
-                                This question is something I have been asking
-                                myself constantly. I believe that in order to
-                                figure out who I am, there are several aspects:
-                                <br />
-                                - Who I currently am?
-                                <br />
-                                - Who I aspire to be?
-                                <br />- Who I will be?
+                                It is challenging to characterize oneself in a mere website, yet ironically,
+                                some of your perceptions of me will be based on the next few lines
+                                that I spent an hour writing.
                             </h6>
                             <p ref={ref}>
-                                To answer the first of the three questions, I am
-                                currently an aspiring software developer as well
-                                as someone who wishes to push their limits both
-                                physically and mentally. I am trying to improve
-                                myself in many aspect like building new habits,
-                                reading, putting myself out there, and working
-                                hard.
-                                <br />
-                                <br />
-                                To answer the second of the three questions, I wish
-                                to be someone that people would look up to for
-                                discipline and perseverance. I also want to be
-                                someone that is well-connected, hardworking, and
-                                fun to be around. On the professional side, I
-                                wish to make a difference in a world and the
-                                people around me in whatever decide I do.
-                                <br />
-                                <br />
-                                To answer the last of the three questions, although
-                                it sounds similar to the second question, I
-                                believe that there is a fundamental difference
-                                between wanting something and being something,
-                                because just simply wanting something won't get
-                                anyone anywhere. 
-                                <br/>
-                                <br/>
-                                I believe that it is crucial to
-                                work hard to achieve what I genuinely want. I
-                                believe that, in the future, I would be making a
-                                huge difference in the world and becoming who I
-                                aspire to be
+                                Everyone's perception of me and their answer to who I am is different.
                             </p>
                             <div className="button-box" style={{ marginTop: "20px" }}>
                                 <ButtonDefault

@@ -3,8 +3,8 @@
 .hero-section {
     @include media_991(min) {
         .title-section {
-            text-align: right;
-            margin-right: 266px;
+            text-align: left;
+            margin-right: 100px;
             margin-bottom: 40px;
             font-size: 30px;
         }
