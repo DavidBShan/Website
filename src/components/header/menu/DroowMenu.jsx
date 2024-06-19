@@ -5,9 +5,9 @@ import MenuContent from "./MenuContent";
 
 const menuContent = [
     { name: "Home", to: "/" },
-    { name: "About Me", to: "/about" },
+    //{ name: "About", to: "/about" },
     { name: "Portfolio", to: "/slider" },
-    { name: "Contact Me", to: "/contact" },
+    { name: "Connect", to: "/contact" },
 ];
 
 const DroowMenu = ({ hamburger }) => {
@@ -31,7 +31,7 @@ const DroowMenu = ({ hamburger }) => {
     return (
         <Navbar hamburger={hamburger}>
             <Navbar.Brand to={"/"}>
-                <Brand width="80px" height="26px" />
+                <Brand width="8vw" height="auto" />
             </Navbar.Brand>
 
             <Navbar.Collapse cover="Menu">

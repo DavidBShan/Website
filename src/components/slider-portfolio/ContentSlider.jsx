@@ -16,27 +16,19 @@ function ContentSlider({ data, activeClass }, ref) {
                     key={key}
                     ref={ref}
                 >
-                    {item.category && (
-                        <MetaPost category={item.category} separate=", " />
-                    )}
                     {item.title && (
-                        <h1 className="title-heading">
-                            <NavLink to={getPortfolioLink(item)}>
+                        <h1 className="title-heading">  
                                 {item.title}
-                            </NavLink>
                         </h1>
                     )}
                     {item.description && (
                         <div className="dsn-description mt-30">
-                            {item.description}
+                            {item.description.split('\n').reduce((acc, line, index, array) => acc.concat(
+                            index < array.length - 1 ? [line, <br key={index} />] : line
+                            ), [])}
                         </div>
                     )}
-                    <ButtonDefault
-                        to={getPortfolioLink(item)}
-                        className="mt-30"
-                        text="Learn More"
-                        icon={faAngleRight}
-                    />
+
                 </div>
             ))}
         </div>

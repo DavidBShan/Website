@@ -1,6 +1,7 @@
 import {ReactComponent as ArrowLeft} from "../../../assets/img/left-arrow.svg";
 import dsnSplitting from "../../../hooks/Spltting";
-import React, {useEffect, useRef} from "react";
+import React, { useEffect, useRef } from "react";
+import CustomCursor from "../../../layout/CustomCursor";
 
 
 const NavDropdown = ({children, name, textBack, ...restProps}) => {
@@ -34,6 +35,13 @@ const NavDropdown = ({children, name, textBack, ...restProps}) => {
 
     return (
         <li className="nav-item has-sub-menu" onClick={handleClickSubMenu}>
+            <CustomCursor
+                duration={1}
+                durationChangeSize={0.3}
+                size={40}
+                scale={75}
+                ease="power2.out"
+            />
             <a href="#0" {...restProps}>
                 <span className="overflow">{name}</span>
             </a>

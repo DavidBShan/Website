@@ -10,7 +10,7 @@ const heroContent = {
   src: '/assets/img/project/project9/3.jpg',
   description: 'A system that young people around the world with a club culture and techno enthusiasts feel identified. We generated a simple logo that is the basis for generating a geometric and liquid system.',
   to: 'portfolio/bastian-bux',
-  textButton: 'LEARN MORE',
+  textButton: '',
   icon: faAngleRight
 }
 

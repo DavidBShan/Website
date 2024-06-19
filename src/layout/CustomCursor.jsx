@@ -34,12 +34,22 @@ function CustomCursor({duration, durationChangeSize, size, scale, ease}) {
             item.addEventListener('mouseleave', mouseLinkLeve);
         });
 
+        const tagList = document.body.querySelectorAll('span');
+        tagList.forEach((item) => {
+            item.addEventListener('mouseenter', mouseLinkEnter);
+            item.addEventListener('mouseleave', mouseLinkLeve);
+        });
+
 
         document.body.addEventListener('mousemove', moseMove);
 
         return () => {
             document.body.removeEventListener('mousemove', moseMove);
             tagA.forEach((item) => {
+                item.removeEventListener('mouseenter', mouseLinkEnter);
+                item.removeEventListener('mouseleave', mouseLinkLeve);
+            })
+            tagList.forEach((item) => {
                 item.removeEventListener('mouseenter', mouseLinkEnter);
                 item.removeEventListener('mouseleave', mouseLinkLeve);
             })

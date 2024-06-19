@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useEffect} from "react";
+import styled from 'styled-components';
 import { Button, Container, Row, Col } from "react-bootstrap";
 import { faAngleRight, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,6 +21,7 @@ import BrandClient from "../../components/brand-client/BrandClient";
 import NextPageContent from "../../components/next/NextPageContent";
 import Footer from "../../components/footer/Footer";
 import { Helmet } from "react-helmet";
+import CustomCursor from "../../layout/CustomCursor";
 
 const heroContent = {
     title: "David Shan",
@@ -31,13 +33,45 @@ const heroContent = {
     subTitle: "Hi, I am",
 };
 
-function Demo3(props) {
+const StyledUl = styled.ul`
+    list-style-type: circle;
+    font-size: 18px;
+    line-height: 4vh;
+    margin-left: 16vw;
+    margin-top: -3vh;
+    margin-right: 5vw;
+    padding: 20px;
+    border-radius: 8px;
+    color: #F6F6F6;
+
+    li {
+        position: relative;
+        overflow: hidden;
+        color: #YourNewColor; // Change #YourNewColor to your desired color code
+    }
+
+    li span::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px; /* Height of the line */
+        background-color: #000; /* Color of the line */
+        transition: width 0.5s ease-in-out;
+    }
+
+    li:hover span::before {
+        width: 100%;
+    }
+`;
+
+function Demo3 (props) {
     return (
         <React.Fragment>
             <Helmet>
                 <title>David Shan </title>
             </Helmet>
-
             <HeaderFull heroContent={heroContent} overlay={6} />
 
             {/* Start Hero Section */}
@@ -71,27 +105,27 @@ function Demo3(props) {
                                 Throughout my life, my search for meaning changes along with my view of the world. In turn, my answer of who I am changes.  
                                 <br></br>
                                 <br></br>
-                                Nowadays, what I choose to devote my energy to is a combination of meeting interesting people, 
-                                making an impact, and broadening my perspectives.
+                                Nowadays, what I choose to devote my energy to is a combination of <a href="https://www.linkedin.com/in/davidbshan" target="_blank" rel="noopener noreferrer"> meeting interesting people</a>, <a href="/portfolio" target="_blank" rel="noopener noreferrer"> making an impact</a>, and <a href="https://quilt-utahraptor-baf.notion.site/341c21d04f074eac99b4c569ed172caa?v=69467fce06c745a594225077ce68ab14&pvs=4" target="_blank" rel="noopener noreferrer"> broadening my perspectives</a>.
                                 <br></br>
                                 <br></br>
-                                Paul Graham, in his essay How To Do Great Work, wrote," Don't let 'work' mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own."
+                                Paul Graham, in his essay <a href="https://www.paulgraham.com/greatwork.html" target="_blank" rel="noopener noreferrer"> How To Do Great Work</a>
+                                , wrote," Don't let 'work' mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own or something you'll be driving."
                                 <br></br>
                                 <br></br>
                                 This path has led me to develop my own interests and build
-                                for a better world. Where families with elderly can have a peace of mind. Where students can have unlimited study material.
-                                Where villages can have early warning of wildfires through satellite data, and finally where 
-                                students with developmental disabilities can discover their artistic talents.
+                                for a better world. Where fleet drivers can <a href="https://www.geotab.com/" target="_blank" rel="noopener noreferrer">drive safely and efficiently</a>. Where students can have <a href="https://www.aceflow.org/" target="_blank" rel="noopener noreferrer">unlimited study material</a>.
+                                Where villages can have <a href="https://drive.google.com/file/d/17VzJ2ki5vfzq2MjZK_dueFeCMcsKuCvk/view" target="_blank" rel="noopener noreferrer">early warning of wildfires through satellite data</a>, and finally where 
+                                <a href="https://docs.google.com/presentation/d/111qX_K8VkofREO-Kb88xkYnfsZINXUAuKK2Xv0zB0vs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">marine capture can be improved with algae</a>.
                                 <br></br>
                                 <br></br>
                             </p>
-                            <div className="button-box" style={{ marginTop: "20px" }}>
+                            {/*<div className="button-box" style={{ marginTop: "20px" }}>
                                 <ButtonDefault
                                     text="Learn More"
                                     icon={faAngleRight}
                                     href="/about"
                                 />
-                            </div>
+                            </div>*/}
                         </DsnGrid>
                     )}
                 </FadeUpTrigger>
@@ -103,48 +137,88 @@ function Demo3(props) {
             >
                 Projects
             </Container>
-            <div style={{ marginLeft: "12vh", marginTop: "-3vh", padding: "20px", borderRadius: "8px" }}>
-                <ul style={{ listStyleType: "circle", fontSize: "18px", lineHeight: "4vh" }}>
-                    <li>○ Working on a startup in the mining industry, funded for 25,000 dollars by Telora</li>
-                    <li>○ Interning at the biggest telematics company in the world, working on their driver app</li>
-                    <li>○ Researching and patenting device to track elderly's vitals funded for 3000 dollars</li>
+            <div>
+                <StyledUl>
+                    
+                    <li>○ Cofounding a <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#246295',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>startup in the mining industry</span>, funded for 25,000 dollars by Telora</li>
+                    <li>○ Interning at Geotab, one of the biggest telematics company in the world, to work on their driver app</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
+                    <li>○ Researching and patenting <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#AD9ED5',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>device to track elderly's vitals</span> funded for 3,000 dollars</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
                     <br></br>
                     <li>○ Led backend development for Aceflow, an edtech startup advised by Stanford University's Director of Digital Learning Solutions with over 2,000 signups, a revenue generating beta, and funded by Emergent Ventures, Microsoft, and Ingenious+ innovation award</li>
-                    <li>○ Developed Rigid Ramp Walker and Ruler Trick Simulation using Mujoco and 4th-Degree Runge Kutta's method, helping my team win Canadian Youth Physics Tournament gold metal</li>
-                    <li>○ Consulted alongside Google and Microsoft to solve their biggest problems</li>
+                    <li>○ Developed <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#8493CA',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>Rigid Ramp Walker and Ruler Trick Simulation</span> using Mujoco and 4th-Degree Runge Kutta's method, helping Crescent School win Canadian Youth Physics Tournament gold metal</li>
                     <li>○ Ideated biomarine carbon capture startup to 10x carbon sequestration in the ocean, winning best overall in that hackathon</li>
-                    <li>○ Published big data research paper on using semantic segmentation to detect wildfires, winning 1000 dollars</li>
+                    <li>○ Published big data research paper on using <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#C5B9DF',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>semantic segmentation to detect wildfires</span>, winning 1,000 dollars</li>
                     <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing</li>
                     <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
+                    <li>○ Consulted <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#98B2D3',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>alongside Google and Microsoft to solve their biggest problems</span> in data centers and customer support</li>
                     <li>○ Built 10+ hackathon projects, winning hundreds of dollars worth of awards</li>
-                </ul>
+                </StyledUl>
             </div>
-            <div className="button-box" style={{ marginLeft: "7vh", marginTop: "2vh" }}>
+            <div className="button-box" style={{ marginLeft: "14vw", marginTop: "2vh" }}>
                 <ButtonDefault
                     text="Learn More"
                     icon={faAngleRight}
                     href="/slider"
                 />
             </div>
-            <Container className="section-margin dsn-right-container" style={{ textAlign: "center", border: "2px solid white", padding: "20px", marginBottom: "10vh", marginLeft: "7vh"}}>
-                <Button
-                    href="/DavidResume.pdf"
-                    download
-                    variant="dark"
-                    style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: "20px",
-                        padding: "15px 30px",
-                    }}
-                >
-                    <FontAwesomeIcon icon={faDownload} style={{ marginRight: "8px" }} />
-                    RESUME (VER. JUN 18 2024)
-                </Button>
-            </Container>
+            <Container style={{ 
+    textAlign: "center", 
+    border: "2px solid white", 
+    padding: "1vw 1vh", // Reduced horizontal padding to make it less wide
+    marginTop: "5vh", 
+    marginBottom: "10vh", 
+    marginLeft: "22vw",
+    width: "60vw", // Explicitly setting the width
+    height: "10vh" // Explicitly setting the height
+}}>
+    <Button
+        href="/DavidResume.pdf"
+        download
+        variant="dark"
+        style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "20px",
+            padding: "15px 30px",
+        }}
+    >
+        <FontAwesomeIcon icon={faDownload} style={{ marginRight: "8px" }} />
+        RESUME (VER. JUN 18 2024)
+    </Button>
+</Container>
             {/* End Portfolio Swiper */}
             <Footer />
             

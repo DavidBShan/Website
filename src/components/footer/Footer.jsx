@@ -5,7 +5,6 @@ import { Container } from 'react-bootstrap';
 
 import SocialMedia from '../social-media/SocialMedia';
 import DsnGrid from '../DsnGrid';
-import Brand from '../brand/Brand';
 import NavLink from '../button/NavLink';
 import MenuFooter from './MenuFooter';
 import Copyright from './Copyright';
@@ -26,7 +25,7 @@ function Footer({ className, ...restProps }) {
                 <img src="/assets/img/logo/logo.png"/>
               </NavLink>
             </div>
-            <div className="mt-40" style={{ marginTop: '12vh', marginLeft: '23vh'}}>
+            <div className="mt-40" style={{ marginTop: '11vh', marginLeft: '8vw'}}>
               <SocialMedia />
             </div>
           </DsnGrid>

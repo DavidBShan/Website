@@ -18,8 +18,7 @@ function SocialMedia ({ className }) {
     { link: 'https://substack.com/@davidshan', icon: faBookmark }, // Replace with the actual homepage URL
     { link: 'https://www.linkedin.com/in/david-shan-076a39265/', icon: faLinkedin }, // Replace with the actual homepage URL
     { link: 'mailto:davidbshan@gmail.com', icon: faEnvelope }, // Replace with the actual email address
-    { link: 'https://calendly.com/davidbshan/15min', icon: faVideo }, // Replace with the actual homepage URL
-    { link: 'https://letterboxd.com/chickenmcswag/', icon: faLetterboxd }
+    { link: 'https://calendly.com/davidbshan/15min', icon: faVideo }
   ]
 
   useEffect(() => {
