@@ -12,7 +12,11 @@
             transition: 1s cubic-bezier(0.645, 0, 0.355, 1);
         }
     }
-
+    .uniform-height {
+        height: 800px; /* Adjust this value to your desired height */
+        width: auto; /* This ensures the aspect ratio is maintained */
+        object-fit: cover; /* This will cover the area of the box without distorting the image */
+    }
     .box-content {
         position: relative;
         z-index: 1;

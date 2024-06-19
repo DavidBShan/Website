@@ -119,13 +119,13 @@ function Demo3 (props) {
                                 <br></br>
                                 <br></br>
                             </p>
-                            {/*<div className="button-box" style={{ marginTop: "20px" }}>
+                            <div className="button-box" style={{ marginTop: "20px" }}>
                                 <ButtonDefault
                                     text="Learn More"
                                     icon={faAngleRight}
                                     href="/about"
                                 />
-                            </div>*/}
+                            </div>
                         </DsnGrid>
                     )}
                 </FadeUpTrigger>

@@ -11,6 +11,7 @@ import Movie from "../components/team/Movies";
 import Song from "../components/team/Songs";
 import Footer from "../components/footer/Footer";
 import TestimonialTow from "../components/testimonial/TestimonialTow";
+import TestimonialOne from "../components/testimonial/TestimonialOne";
 import { Helmet } from "react-helmet";
 
 const headerContent = {
@@ -33,42 +34,6 @@ function About() {
                 {headerContent.title}
             </HeaderNormal>
 
-            {/*Start Box Right Info*/}
-            <BoxRight
-                className="mb-section text-center"
-                src="/assets/img/pexels.jpeg"
-                parallaxFrom={{ scale: 1.2 }}
-                parallax={{ scale: 1 }}
-                overlay={4}
-            >
-                <FadeUpTrigger>
-                    <h3>My Values</h3>
-                    <p className="mt-30 m-w750 dsn-auto">
-                        There are many beliefs that I have, but one overweighs
-                        all and that is hard-work. I believe that if someone
-                        really wants something and genuinely work hard for it,
-                        they can achieve it.
-                        <br />
-                        <br />
-                        I also believe in the idea of delayed gratification and
-                        wasting as little time as possible in order to achieve
-                        that I am destined to do in life.
-                        <br />
-                        <br />
-                        Thirdly, I believe in self-improvement and constantly
-                        trying to be better each day and to be a bit better than
-                        the day before.
-                        <br />
-                        <br />
-                        Lastly, I believe in being stoic, controlling my
-                        emotions, thinking logically, analyzing my
-                        emotions and my current situation to decide the best
-                        solution.
-                    </p>
-                </FadeUpTrigger>
-            </BoxRight>
-            {/*End Box Right Info*/}
-
             {/*Start People*/}
             <section className="section-margin background-section section-padding">
                 <Container className="dsn-right-container">
@@ -90,22 +55,18 @@ function About() {
                 </Container>
             </section>
             {/*End People*/}
-
-            {/*Start People*/}
-            <section className="section-margin background-section section-padding">
-                <Container className="dsn-right-container">
-                    <TitleSection description="Songs">
-                        Songs That I Enjoy
-                    </TitleSection>
-                    <Song loop grabCursor />
-                </Container>
-            </section>
-            {/*End People*/}
-
             {/*Start Service Section*/}
             <Container className="section-margin">
-                <TitleSection description="Quotes">
-                    My Favourite Quotes
+                <TitleSection description="Books">
+                    Sports I do
+                </TitleSection>
+                <TestimonialOne grabCursor loop />
+            </Container>
+            {/*End Service Section*/}
+            {/*Start Service Section*/}
+            <Container className="section-margin">
+                <TitleSection description="Books">
+                    My Favourite Books
                 </TitleSection>
                 <TestimonialTow grabCursor loop />
             </Container>

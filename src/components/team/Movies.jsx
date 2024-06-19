@@ -34,11 +34,6 @@ const MovieDetails = [
         subTitle: "1989",
     },
     {
-        src: "/assets/img/movies/Titanic.jpg",
-        title: "Titanic",
-        subTitle: "1997",
-    },
-    {
         src: "/assets/img/movies/Inception.jpg",
         title: "Inception",
         subTitle: "2010",
@@ -64,19 +59,9 @@ const MovieDetails = [
         subTitle: "2001 | 2002 | 2003",
     },
     {
-        src: "/assets/img/movies/Future.jpg",
-        title: "Back To The Future",
-        subTitle: "1985 | 1989 | 1990",
-    },
-    {
         src: "/assets/img/movies/Hunting.jpg",
         title: "Good Will Hunting",
         subTitle: "1997",
-    },
-    {
-        src: "/assets/img/movies/Bucket.jpg",
-        title: "The Bucket List",
-        subTitle: "2007",
     },
     {
         src: "/assets/img/movies/Groundhog.png",
@@ -87,12 +72,7 @@ const MovieDetails = [
         src: "/assets/img/movies/Happiness.jpg",
         title: "The Pursuit of Happiness",
         subTitle: "2006",
-    },
-    {
-        src: "/assets/img/movies/Mind.jpg",
-        title: "A Beautiful Mind",
-        subTitle: "2001",
-    },
+    }
 ];
 
 const Movie = ({

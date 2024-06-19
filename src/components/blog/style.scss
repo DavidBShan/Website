@@ -17,4 +17,9 @@
         padding: 40px;
         z-index: 1;
     }
+    .uniform-height {
+        height: 150px; /* Adjust this value to your desired height */
+        width: auto; /* This ensures the aspect ratio is maintained */
+        object-fit: cover; /* This will cover the area of the box without distorting the image */
+    }
 }

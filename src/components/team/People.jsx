@@ -9,42 +9,37 @@ import { Pagination, SwiperOptions } from "swiper";
 
 const PeopleDetails = [
     {
+        src: "/assets/img/people/Naval.jpg",
+        title: "Naval Ravikant",
+        subTitle: "Discipline",
+    },
+    {
         src: "/assets/img/people/Goggins.jpg",
         title: "David Goggins",
-        subTitle: "Discipline",
+        subTitle: "Entrepreneurship",
+    },
+    {
+        src: "/assets/img/people/Altman.jpg",
+        title: "Sam Altman",
+        subTitle: "Psychology",
     },
     {
         src: "/assets/img/people/Musk.jpg",
         title: "Elon Musk",
-        subTitle: "Entrepreneurship",
-    },
-    {
-        src: "/assets/img/people/Peterson.jpg",
-        title: "Jordan Peterson",
-        subTitle: "Psychology",
-    },
-    {
-        src: "/assets/img/people/Iman.jpg",
-        title: "Iman Gadzhi",
         subTitle: "Money",
-    },
-    {
-        src: "/assets/img/people/Rogan.jpg",
-        title: "Joe Rogan",
-        subTitle: "Knowledge",
     },
     {
         src: "/assets/img/people/Marcus.jpg",
         title: "Marcus Aurelius",
-        subTitle: "Stoicism",
+        subTitle: "Knowledge",
     },
     {
-        src: "/assets/img/people/Kobe.jpg",
-        title: "Kobe Bryant",
-        subTitle: "Hard-work",
+        src: "/assets/img/people/Vinod.jpg",
+        title: "Vinod Khosla",
+        subTitle: "Stoicism",
     },{
-        src: "/assets/img/people/CBum.jpg",
-        title: "Chris Bumstead",
+        src: "/assets/img/people/Paul.jpg",
+        title: "Paul Graham",
         subTitle: "Fitness"
     },
 ];

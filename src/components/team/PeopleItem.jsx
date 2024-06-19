@@ -3,13 +3,12 @@ import React from "react";
 function PeopleItem({ src, title, subTitle }) {
     return (
         <div className="team-item">
-            <div className="box-img">
-                <img src={src} alt={title} />
+            <div className="box-img uni">
+                <img src={src} alt={title} className="uniform-height" />
             </div>
             <div className="info">
                 <div className="box-content">
                     <h5 className=" mb-20">{title}</h5>
-                    <h6>{subTitle}</h6>
                 </div>
             </div>
         </div>

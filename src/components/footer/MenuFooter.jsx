@@ -6,7 +6,7 @@ function MenuFooter({ className, ...restProps }) {
     const paginate = [
         { link: "/", title: "Home" },
         { link: "/slider", title: "Portfolio" },
-        //{ link: "/about", title: "About" },
+        { link: "/about", title: "About" },
         { link: "/contact", title: "Connect" },
     ];
     return (

@@ -5,7 +5,6 @@ function TestimonialItem({src, authorName, label, description}) {
     return (
 
         <div className="testimonial-item">
-            <p className='mb-25'>{description}</p>
 
             <div className="author-box">
                 {src && <span className="avatar">
