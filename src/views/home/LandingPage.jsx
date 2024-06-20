@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import styled from 'styled-components';
 import { Button, Container, Row, Col } from "react-bootstrap";
-import { faAngleRight, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight, faDownload, faFile } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import HeaderFull from "../../components/header/HeaderFull";
@@ -205,7 +205,7 @@ function Demo3 (props) {
 }}>
     <Button
         href="/DavidResume.pdf"
-        download
+        target="_blank"
         variant="dark"
         style={{
             display: "flex",
@@ -215,11 +215,10 @@ function Demo3 (props) {
             padding: "15px 30px",
         }}
     >
-        <FontAwesomeIcon icon={faDownload} style={{ marginRight: "8px" }} />
-        RESUME (VER. JUN 18 2024)
+        <FontAwesomeIcon icon={faFile} style={{ marginRight: "8px" }} />
+        RESUME (VER. JUN 20 2024)
     </Button>
 </Container>
-            {/* End Portfolio Swiper */}
             <Footer />
             
         </React.Fragment>

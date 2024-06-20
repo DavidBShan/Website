@@ -37,7 +37,7 @@ function HeaderNormal({className, description, children, ...restProps}: HeaderNo
                     {children}
                 </h1>
                 {description && <p className="mt-30 m-w570" style={{letterSpacing: "1.2px"}}>
-                    Welcome to the page where I show my interests. Ultimately, what someone does and like is one of the best representation to know who they are. <br></br><br></br>Feel free to book a meeting with me to talk about <a href="https://github.com/DavidBShan">programming5</a>, <a href="https://open.spotify.com/user/kloejkjhqyyn2xme0za59np07?si=7f079ac28f604d76">music</a>, <a href="https://letterboxd.com/chickenmcswag/">movies</a>, mindsets, self-improvement, and, quite frankly, anything that piques your interest.
+                    Welcome to the page where I show my interests. Ultimately, what someone does and like is one of the best representation to know who they are. <br></br><br></br>Feel free to book a meeting with me to talk about <a href="https://github.com/DavidBShan">programming</a>, <a href="https://open.spotify.com/user/kloejkjhqyyn2xme0za59np07?si=7f079ac28f604d76">music</a>, <a href="https://letterboxd.com/chickenmcswag/">movies</a>, mindsets, self-improvement, and, quite frankly, anything that piques your interest.
                 </p>}
                 <a href="#0" className={`view-case ${style.sd} mt-30`}>
                     Scroll Down <FontAwesomeIcon icon={faArrowDown}/>

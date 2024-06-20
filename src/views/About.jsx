@@ -58,7 +58,7 @@ function About() {
             {/*Start Service Section*/}
             <Container className="section-margin">
                 <TitleSection description="Sports">
-                    Sports I do
+                    Sports I Like
                 </TitleSection>
                 <TestimonialOne grabCursor loop />
             </Container>

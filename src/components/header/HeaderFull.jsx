@@ -82,11 +82,11 @@ function HeaderFull({
 
 
                 <FooterHead className="container-fluid" ref={holder}>
-                    <span className="letter">discover</span>
+                    <span className="letter">scroll to</span>
                     <div className="scroll-down__line">
                         <span/>
                     </div>
-                    <span className="letter">scroll to</span>
+                    <span className="letter">discover</span>
                 </FooterHead>
             </Header>
         </div>
