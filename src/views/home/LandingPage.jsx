@@ -186,13 +186,13 @@ function Demo3 (props) {
                     <li>○ Built 10+ hackathon projects, winning hundreds of dollars worth of awards</li>
                 <br></br><br></br>
                     <li>○ Two time AIME Qualifier and Honor Roll on 15+ Math and Programming Competitions</li>
-                    <li>○ Played for <span style={{
+                    <li>○ Played for the <span style={{
                                 textDecorationLine: 'underline',
                                 textDecorationColor: '#4A5F7A',
                                 textDecorationStyle: 'solid',
                                 textDecorationThickness: '3px',
                                 fontStyle: 'italic'
-            }}>the Canadian National Table Tennis Team</span> and was ranked 8th in Ontario.</li>
+            }}>Canadian National Table Tennis Team</span> and was ranked 8th in Ontario.</li>
                     <li>○ Compete in the USACO Gold Division</li>
                     <li>○ Instruct Skiing with CSIA Level I Skiing License</li>
                     <li>○ Completed the Haliburton 50km Race </li>
