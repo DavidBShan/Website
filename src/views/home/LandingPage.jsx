@@ -176,6 +176,13 @@ function Demo3 (props) {
                     }}>semantic segmentation to detect wildfires</span>, winning 1,000 dollars</li>
                     <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing</li>
                     <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
+                    <li>○ Played for <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#E7EEFD',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>the Canadian National Table Tennis Team</span> and was ranked 8th in Ontario.</li>
                     <li>○ Consulted <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#98B2D3',
