@@ -132,10 +132,10 @@ function Demo3 (props) {
             </BoxImageVertical>
             <Container
                 as={TitleSection}
-                description="My Work"
+                description="My work"
                 className="mt-section"
             >
-                Projects
+                Portfolio
             </Container>
             <div>
                 <StyledUl>
@@ -176,13 +176,6 @@ function Demo3 (props) {
                     }}>semantic segmentation to detect wildfires</span>, winning 1,000 dollars</li>
                     <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing</li>
                     <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
-                    <li>○ Played for <span style={{
-                        textDecorationLine: 'underline',
-                        textDecorationColor: '#E7EEFD',
-                        textDecorationStyle: 'solid',
-                        textDecorationThickness: '3px',
-                        fontStyle: 'italic'
-                    }}>the Canadian National Table Tennis Team</span> and was ranked 8th in Ontario.</li>
                     <li>○ Consulted <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#98B2D3',
@@ -191,6 +184,18 @@ function Demo3 (props) {
                         fontStyle: 'italic'
                     }}>alongside Google and Microsoft to solve their biggest problems</span> in data centers and customer support</li>
                     <li>○ Built 10+ hackathon projects, winning hundreds of dollars worth of awards</li>
+                <br></br><br></br>
+                    <li>○ Two time AIME Qualifier and Honor Roll on 15+ Math and Programming Competitions</li>
+                    <li>○ Played for <span style={{
+                                textDecorationLine: 'underline',
+                                textDecorationColor: '#4A5F7A',
+                                textDecorationStyle: 'solid',
+                                textDecorationThickness: '3px',
+                                fontStyle: 'italic'
+            }}>the Canadian National Table Tennis Team</span> and was ranked 8th in Ontario.</li>
+                    <li>○ Compete in the USACO Gold Division</li>
+                    <li>○ Instruct Skiing with CSIA Level I Skiing License</li>
+                    <li>○ Completed the Haliburton 50km Race </li>
                 </StyledUl>
             </div>
             <div className="button-box" style={{ marginLeft: "14vw", marginTop: "2vh" }}>
