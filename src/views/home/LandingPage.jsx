@@ -105,7 +105,7 @@ function Demo3 (props) {
                                 Throughout my life, my search for meaning changes along with my view of the world. In turn, my answer of who I am changes.  
                                 <br></br>
                                 <br></br>
-                                Nowadays, what I choose to devote my energy to is a combination of <a href="https://www.linkedin.com/in/davidbshan" target="_blank" rel="noopener noreferrer"> meeting interesting people</a>, <a href="/portfolio" target="_blank" rel="noopener noreferrer"> making an impact</a>, and <a href="https://quilt-utahraptor-baf.notion.site/341c21d04f074eac99b4c569ed172caa?v=69467fce06c745a594225077ce68ab14&pvs=4" target="_blank" rel="noopener noreferrer"> broadening my perspectives</a>.
+                                Nowadays, what I choose to devote my energy to is a combination of <a href="https://www.linkedin.com/in/davidbshan" target="_blank" rel="noopener noreferrer"> meeting interesting people</a>, <a href="/slider" target="_blank" rel="noopener noreferrer"> making an impact</a>, and <a href="https://quilt-utahraptor-baf.notion.site/341c21d04f074eac99b4c569ed172caa?v=69467fce06c745a594225077ce68ab14&pvs=4" target="_blank" rel="noopener noreferrer"> broadening my perspectives</a>.
                                 <br></br>
                                 <br></br>
                                 Paul Graham, in his essay <a href="https://www.paulgraham.com/greatwork.html" target="_blank" rel="noopener noreferrer"> How To Do Great Work</a>
