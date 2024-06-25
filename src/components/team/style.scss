@@ -13,7 +13,7 @@
         }
     }
     .uniform-height {
-        height: 800px; /* Adjust this value to your desired height */
+        height: 50vh; /* Adjust this value to your desired height */
         width: auto; /* This ensures the aspect ratio is maintained */
         object-fit: cover; /* This will cover the area of the box without distorting the image */
     }
