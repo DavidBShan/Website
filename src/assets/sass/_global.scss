@@ -82,6 +82,13 @@
   margin-bottom: $margin-padding;
 }
 
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
 .section-margin {
   margin-top: $margin-padding;
   margin-bottom: $margin-padding;

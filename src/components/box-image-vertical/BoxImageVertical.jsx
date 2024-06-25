@@ -16,7 +16,7 @@ const BoxImageVertical = ({ className, children, ...restProps}: ParallaxImagePro
             <Container>
                 <Row>
                     <Col xl={5} className="item-box">
-                        <div className='inner-img p-relative'>
+                        <div className='inner-img p-relative hide-on-mobile'>
                             <ParallaxImage  height="100%" {...restProps}/>
                         </div>
                     </Col>

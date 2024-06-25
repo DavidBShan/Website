@@ -15,17 +15,17 @@ function Footer({ className, ...restProps }) {
     <footer className={dsnCN('footer background-section', className)} {...restProps}>
       <Container>
         <div className="footer-links pt-80 pb-40">
-          <DsnGrid col={4} colTablet={2}>
+          <DsnGrid col={4} colTablet={2} colMobile={1}>
             <div className="dsn-col-footer">
               <h4 className="footer-title">Navigation</h4>
               <MenuFooter />
             </div>
-            <div style={{ marginTop: '65px', marginLeft: '195px'}}>
+            <div className="footer-logo" style={{ marginTop: '3rem', marginLeft: 'auto', marginRight: 'auto', maxWidth: '500px' }}>
               <NavLink to="/">
-                <img src="/assets/img/logo/logo.png"/>
+                <img src="/assets/img/logo/logo.png" style={{ width: '100%', height: 'auto' }}/>
               </NavLink>
             </div>
-            <div className="mt-40" style={{ marginTop: '11vh', marginLeft: '8vw'}}>
+            <div className="footer-social-media" style={{ marginTop: '3rem', marginLeft: 'auto', marginRight: 'auto' }}>
               <SocialMedia />
             </div>
           </DsnGrid>
