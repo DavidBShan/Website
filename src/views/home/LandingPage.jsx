@@ -32,7 +32,10 @@ const heroContent = {
     },
     subTitle: "Hi, I am",
 };
+// At the top of your file, after imports
+const mobileBreakpoint = '768px'; // Common breakpoint for mobile devices
 
+// Inside your styled components, add media queries as needed
 const StyledUl = styled.ul`
     list-style-type: circle;
     font-size: 18px;
@@ -47,7 +50,7 @@ const StyledUl = styled.ul`
     li {
         position: relative;
         overflow: hidden;
-        color: #YourNewColor; // Change #YourNewColor to your desired color code
+        color: #YourNewColor; // Remember to replace #YourNewColor with your actual color code
     }
 
     li span::before {
@@ -56,13 +59,78 @@ const StyledUl = styled.ul`
         bottom: 0;
         left: 0;
         width: 0;
-        height: 2px; /* Height of the line */
-        background-color: #000; /* Color of the line */
+        height: 2px;
+        background-color: #000;
         transition: width 0.5s ease-in-out;
     }
 
     li:hover span::before {
         width: 100%;
+    }
+
+    // Media query for mobile devices
+    @media (max-width: ${mobileBreakpoint}) {
+        font-size: 16px; // Slightly smaller font size for mobile
+        margin-left: 5vw; // Adjust margins for smaller screens
+        margin-right: 5vw;
+        line-height: 3vh;
+    }
+`;
+
+// Apply similar responsive adjustments to other styled components as needed
+
+// For the Container component and others with explicit sizes or margins, consider using percentages or viewport units that adapt to screen size, and adjust with media queries if necessary.
+
+// Example adjustment for a Container component
+const ResponsiveContainer = styled(Container)`
+    // Adjust padding and margins for mobile
+    @media (max-width: ${mobileBreakpoint}) {
+        padding: 1vw 1vh;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        width: 90vw; // Use a higher percentage of the viewport width
+    }
+`;
+
+// Adjust the ButtonDefault and other interactive elements to be larger for easier tapping on touch devices
+const ResponsiveButton = styled(ButtonDefault)`
+    @media (max-width: ${mobileBreakpoint}) {
+        padding: 20px 40px; // Larger padding for easier interaction
+        font-size: 18px; // Larger font size for readability
+    }
+`;
+
+// Container for the Resume button
+const ResumeButtonContainer = styled(Container)`
+    text-align: center; 
+    border: 2px solid white; 
+    padding: 1vw 1vh; // Reduced horizontal padding to make it less wide
+    margin-top: 5vh; 
+    margin-bottom: 10vh; 
+    margin-left: auto; // Center align horizontally
+    margin-right: auto; // Center align horizontally
+    width: 60vw; // Explicitly setting the width
+    height: 10vh; // Explicitly setting the height
+
+    @media (max-width: ${mobileBreakpoint}) {
+        width: 90vw; // Adjust width for mobile
+        height: auto; // Let height adjust automatically for mobile
+        padding: 3vh 1vh; // Adjust padding for mobile
+        margin-left: 5vw; // Adjust margins for mobile
+        margin-right: 5vw;
+    }
+`;
+
+const ResumeButton = styled(Button)`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 15px 30px;
+
+    @media (max-width: ${mobileBreakpoint}) {
+        font-size: 18px; // Adjust font size for mobile
+        padding: 15px 20px; // Adjust padding for mobile
     }
 `;
 
@@ -205,32 +273,16 @@ function Demo3 (props) {
                     href="/slider"
                 />
             </div>
-            <Container style={{ 
-    textAlign: "center", 
-    border: "2px solid white", 
-    padding: "1vw 1vh", // Reduced horizontal padding to make it less wide
-    marginTop: "5vh", 
-    marginBottom: "10vh", 
-    marginLeft: "22vw",
-    width: "60vw", // Explicitly setting the width
-    height: "10vh" // Explicitly setting the height
-}}>
-    <Button
-        href="/DavidResume.pdf"
-        target="_blank"
-        variant="dark"
-        style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: "20px",
-            padding: "15px 30px",
-        }}
-    >
-        <FontAwesomeIcon icon={faFile} style={{ marginRight: "8px" }} />
-        RESUME (VER. JUN 20 2024)
-    </Button>
-</Container>
+            <ResumeButtonContainer>
+                <ResumeButton
+                    href="/DavidResume.pdf"
+                    target="_blank"
+                    variant="dark"
+                >
+                    <FontAwesomeIcon icon={faFile} style={{ marginRight: "8px" }} />
+                    RESUME (VER. JUN 20 2024)
+                </ResumeButton>
+            </ResumeButtonContainer>
             <Footer />
             
         </React.Fragment>
