@@ -112,13 +112,13 @@ const Movie = ({
 
 Movie.defaultProps = {
     desktop: {
-        slidesPerView: 2.5,
+        slidesPerView: 2,
     },
     tablet: {
         slidesPerView: 2,
     },
     mobile: {
-        slidesPerView: 2,
+        slidesPerView: 1,
     },
 };
 
