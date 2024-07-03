@@ -215,7 +215,7 @@ function Demo3 (props) {
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
                     }}>startup in the mining industry</span>, funded for 25,000 dollars by Telora</li>
-                    <li>○ Interning at Geotab, one of the biggest telematics company in the world, to work on their driver app</li>
+                    <li>○ Interning at Geotab,the biggest commercial telematics platform in the world, to work on their driver app</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
                     <li>○ Researching and patenting <span style={{
                         textDecorationLine: 'underline',
