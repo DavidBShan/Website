@@ -260,7 +260,7 @@ function Demo3 (props) {
                                 textDecorationStyle: 'solid',
                                 textDecorationThickness: '3px',
                                 fontStyle: 'italic'
-            }}>Canadian National Table Tennis Team</span> and was ranked 8th in Ontario.</li>
+            }}>Ontario Provincial Table Tennis Team</span> and was ranked 6th in Ontario.</li>
                     <li>○ Compete in the USACO Gold Division</li>
                     <li>○ Instruct Skiing with CSIA Level I Skiing License</li>
                     <li>○ Completed the Haliburton 50km Race </li>
