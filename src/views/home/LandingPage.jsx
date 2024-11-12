@@ -233,7 +233,7 @@ function Demo3 (props) {
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}>Rigid Ramp Walker and Ruler Trick Simulation</span> using Mujoco and 4th-Degree Runge Kutta's method, helping Crescent School win Canadian Youth Physics Tournament gold metal</li>
+                    }}>Rigid Ramp Walker and Ruler Trick Simulation</span> using Mujoco and 4th-Degree Runge Kutta's method, helping Crescent School win Canadian Youth Physics Tournament gold medal</li>
                     <li>○ Ideated biomarine carbon capture startup to 10x carbon sequestration in the ocean, winning best overall in that hackathon</li>
                     <li>○ Published big data research paper on using <span style={{
                         textDecorationLine: 'underline',
