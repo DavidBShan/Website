@@ -208,24 +208,39 @@ function Demo3 (props) {
             <div>
                 <StyledUl>
                     
-                    <li>○ Cofounding a <span style={{
+                    <li>○ Programming Apriltag Localization with NVIDIA ISAAC leveraging ROS2 to enhance <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#249590',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>vision-based navigation for robotics</span></li>
+                    <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
+                    <li>○ Heading First Robotic Competition Team 610's programming department</li>
+                    <li>○ Researching <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#C99ED5',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>correlation between technology accessibility and job accessability</span> through agent-based modelling</li>
+                    <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
+                    <br></br>
+                    <li>○ Cofounded a <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#246295',
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
                     }}>startup in the video editing industry</span>, funded for 25,000 dollars by Telora</li>
-                    <li>○ Interning at Geotab, the biggest commercial telematics platform in the world, to work on their driver app</li>
-                    <li>○ Heading First Robotic Competition Team 610's programming department</li>
-                    <li>○ Researching and patenting <span style={{
+                    <li>○ Interned at Geotab, the biggest commercial telematics platform in the world, to work on their driver app</li>
+                    <li>○ Researched, designed, and programmed <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#AD9ED5',
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}>device to track elderly's vitals</span> funded for 3,000 dollars</li>
-                    <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
-                    <br></br>
+                    }}>printed circuit board to track elderly's vitals</span> funded for 3,000 dollars</li>
                     <li>○ Led backend development for Aceflow, an edtech startup advised by Stanford University's Director of Digital Learning Solutions with over 2,000 signups, a revenue generating beta, and funded by Emergent Ventures, Microsoft, and Ingenious+ innovation award</li>
                     <li>○ Developed <span style={{
                         textDecorationLine: 'underline',
