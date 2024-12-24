@@ -65,7 +65,7 @@ const data = [
         srcSlider: "/assets/img/portfolio/Software.png",
         category: ["Robotics"],
         description:
-            "Attended over 10+ hackathons, I built numerous projects that won hundreds of dollars in awards. The most interesting projects I built, in my opinion are:\n\n○ A graphical representation of journals with each journal as a connection between two people (nodes) with Neo4j's AuraDB\n○A web application that turns humming into an orchestra melody with the Magenta API\n○A webapp where the user can turn their lecture notes into presentations with voice recordings, slideshows, and quizzes\n○A game on the blockchain powered by smart contracts\n○An AR-based camera app to review furnitures in the real-world, guiding the furniture purchasing process, through Flutter",
+            "Attended over 10+ hackathons, I built numerous projects that won hundreds of dollars in awards. The most interesting projects I built, in my opinion are:\n\n○ A graphical representation of journals with each journal as a connection between two people (nodes) with Neo4j's AuraDB\n○A web application that turns humming into an orchestra melody with the Magenta API\n○A webapp where the user can turn their lecture notes into presentations with voice recordings, slideshows, and quizzes\n○A game on the blockchain powered by smart contracts \n○An AR-based camera app to review furnitures in the real-world, guiding the furniture purchasing process, through Flutter",
         overlay: 2,
         component: (props) => <Viper {...props} />,
     },

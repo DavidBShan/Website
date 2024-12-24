@@ -225,6 +225,7 @@ function Demo3 (props) {
                         fontStyle: 'italic'
                     }}>correlation between technology accessibility and job accessability</span> through agent-based modelling</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
+                    <li>○ Building AI DevOps Tool for quality assurance and testing with natural language processing</li>
                     <br></br>
                     <li>○ Cofounded a <span style={{
                         textDecorationLine: 'underline',
