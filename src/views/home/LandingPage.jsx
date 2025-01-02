@@ -208,13 +208,13 @@ function Demo3 (props) {
             <div>
                 <StyledUl>
                     
-                    <li>○ Programming Apriltag Localization with NVIDIA ISAAC leveraging ROS2 to enhance <span style={{
+                    <li>○ Building MANTIS, <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#249590',
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}>vision-based navigation for robotics</span></li>
+                    }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT. Currently working on the agentic workflow sector and a part of the leadership team.</li>
                     <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
                     <li>○ Researching <span style={{
@@ -225,7 +225,7 @@ function Demo3 (props) {
                         fontStyle: 'italic'
                     }}>correlation between technology accessibility and job accessability</span> through agent-based modelling</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
-                    <li>○ Building AI DevOps Tool for quality assurance and testing with natural language processing</li>
+                    <li>○ Building Alumni Database for Universities</li>
                     <br></br>
                     <li>○ Cofounded a <span style={{
                         textDecorationLine: 'underline',
