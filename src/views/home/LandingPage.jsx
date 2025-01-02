@@ -208,7 +208,7 @@ function Demo3 (props) {
             <div>
                 <StyledUl>
                     
-                    <li>○ Building MANTIS, <span style={{
+                    <li>○ Internship building MANTIS, <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#249590',
                         textDecorationStyle: 'solid',
@@ -225,7 +225,7 @@ function Demo3 (props) {
                         fontStyle: 'italic'
                     }}>correlation between technology accessibility and job accessability</span> through agent-based modelling</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
-                    <li>○ Building Alumni Database for Universities</li>
+                    <li>○ Building alumni database for universities and schools</li>
                     <br></br>
                     <li>○ Cofounded a <span style={{
                         textDecorationLine: 'underline',
