@@ -214,7 +214,8 @@ function Demo3 (props) {
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT. Currently working on the agentic workflow sector and a part of the leadership team.</li>
+                    }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT's Computer Science and Artificial Intelligence Lab. Currently working on the agentic workflow sector and a part of the leadership team.</li>
+                    <li>○ Building alumni database for universities and schools</li>
                     <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
                     <li>○ Researching <span style={{
@@ -223,9 +224,8 @@ function Demo3 (props) {
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}>correlation between technology accessibility and job accessability</span> through agent-based modelling</li>
+                    }}>weighting country-based factors that affect youth mortality rates</span> through gradient optimization and leveraging LSTM to examine the future.</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
-                    <li>○ Building alumni database for universities and schools</li>
                     <br></br>
                     <li>○ Cofounded a <span style={{
                         textDecorationLine: 'underline',
