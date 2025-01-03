@@ -208,7 +208,7 @@ function Demo3 (props) {
             <div>
                 <StyledUl>
                     
-                    <li>○ Internship building MANTIS, <span style={{
+                    <li>○ Core Engineer building MANTIS, <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#249590',
                         textDecorationStyle: 'solid',
