@@ -296,7 +296,7 @@ function Demo3 (props) {
                     variant="dark"
                 >
                     <FontAwesomeIcon icon={faFile} style={{ marginRight: "8px" }} />
-                    RESUME (VER. OCT 04 2024)
+                    RESUME (VER. JAN 02 2025)
                 </ResumeButton>
             </ResumeButtonContainer>
             <Footer />
