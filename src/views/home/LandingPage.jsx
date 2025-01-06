@@ -215,7 +215,7 @@ function Demo3 (props) {
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
                     }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT's Computer Science and Artificial Intelligence Lab. Currently working on the agentic workflow sector and a part of the leadership team.</li>
-                    <li>○ Building alumni database for universities and schools, deployed at University of Pennsylvania and University of Toronto</li>
+                    <li>○ Building alumni database for universities and schools, deployed at the University of Pennsylvania and University of Toronto</li>
                     <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
                     <li>○ Researching <span style={{
