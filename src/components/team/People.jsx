@@ -24,11 +24,6 @@ const PeopleDetails = [
         subTitle: "Psychology",
     },
     {
-        src: "/assets/img/people/Musk.jpg",
-        title: "Elon Musk",
-        subTitle: "Money",
-    },
-    {
         src: "/assets/img/people/Marcus.jpg",
         title: "Marcus Aurelius",
         subTitle: "Knowledge",
