@@ -215,16 +215,8 @@ function Demo3 (props) {
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
                     }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT's Computer Science and Artificial Intelligence Lab. Currently working on the agentic workflow sector and a part of the leadership team.</li>
-                    <li>○ Building alumni database for universities and schools, deployed at the University of Pennsylvania and University of Toronto</li>
                     <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
-                    <li>○ Researching <span style={{
-                        textDecorationLine: 'underline',
-                        textDecorationColor: '#C99ED5',
-                        textDecorationStyle: 'solid',
-                        textDecorationThickness: '3px',
-                        fontStyle: 'italic'
-                    }}>weighting country-based factors that affect youth mortality rates</span> through gradient optimization and leveraging LSTM to examine the future.</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
                     <br></br>
                     <li>○ Cofounded a <span style={{
@@ -260,6 +252,7 @@ function Demo3 (props) {
                     }}>semantic segmentation to detect wildfires</span>, winning 1,000 dollars</li>
                     <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing</li>
                     <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
+                    <li>○ Built alumni database for universities and schools, deployed at the University of Pennsylvania and University of Toronto</li>
                     <li>○ Consulted <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#98B2D3',
