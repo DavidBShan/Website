@@ -250,7 +250,7 @@ function Demo3 (props) {
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
                     }}>semantic segmentation to detect wildfires</span>, winning 1,000 dollars</li>
-                    <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing</li>
+                    <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing and another on weighting country-based factors that affect youth mortality rates</li>
                     <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
                     <li>○ Built alumni database for universities and schools, deployed at the University of Pennsylvania and University of Toronto</li>
                     <li>○ Consulted <span style={{
