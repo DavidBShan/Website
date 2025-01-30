@@ -6,7 +6,7 @@ function MenuContent({className}) {
         {link: "https://www.linkedin.com/in/david-shan-076a39265/", name: "LinkedIn"},
         {link: "https://medium.com/@davidbshan", name: "Medium"},
         { link: "https://substack.com/profile/149437949-david-shan", name: "Newsletter" },
-        { link: "https://github.com/ChikenMcSwag", name: "Github" }
+        { link: "https://github.com/DavidBShan", name: "Github" }
     ];
     return (
         <div className={dsnCN('container-content  d-flex flex-column justify-content-center', className)}>
