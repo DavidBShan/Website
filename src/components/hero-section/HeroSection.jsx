@@ -17,7 +17,7 @@ const HeroContent = {
     description: "David Shan",
     name: "David Shan",
     authorJob: "Toronto, Canada",
-    age: "17",
+    age: "18",
     ageDescription: "YEARS OLD",
     heroImage: "/assets/img/about.png",
 };
