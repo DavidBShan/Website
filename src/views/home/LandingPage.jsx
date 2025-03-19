@@ -207,17 +207,23 @@ function Demo3 (props) {
             </Container>
             <div>
                 <StyledUl>
-                    
-                    <li>○ Core Engineer building MANTIS, <span style={{
+                    <li>○ Founding Engineer at Linkd, building <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#249590',
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT's Computer Science and Artificial Intelligence Lab. Currently working on the agentic workflow sector and a part of the leadership team.</li>
-                    <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
+                    }}> people search </span> backed by YC X25 and Cory Levy</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
+                    <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
+                    <li>○ Working on a real estate appraisal algorithm and platform for <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#249590',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>real estate agents (revenue generating)</span></li>
                     <br></br>
                     <li>○ Cofounded a <span style={{
                         textDecorationLine: 'underline',
@@ -227,6 +233,13 @@ function Demo3 (props) {
                         fontStyle: 'italic'
                     }}>startup in the video editing industry</span>, funded for 25,000 dollars by Telora</li>
                     <li>○ Interned at Geotab, the biggest commercial telematics platform in the world, to work on their driver app</li>
+                    <li>○ Core Engineer building MANTIS, <span style={{
+                        textDecorationLine: 'underline',
+                        textDecorationColor: '#249590',
+                        textDecorationStyle: 'solid',
+                        textDecorationThickness: '3px',
+                        fontStyle: 'italic'
+                    }}>an AI-powered data-science cognitive cartography workbench</span>, with Dr. Manolis Kellis at MIT's Computer Science and Artificial Intelligence Lab. Worked on the agentic workflow sector and a part of the leadership team.</li>
                     <li>○ Researched, designed, and programmed <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#AD9ED5',
@@ -252,7 +265,6 @@ function Demo3 (props) {
                     }}>semantic segmentation to detect wildfires</span>, winning 1,000 dollars</li>
                     <li>○ Wrote manuscript on using data science to investigate the negative connotations of subsidized housing and another on weighting country-based factors that affect youth mortality rates</li>
                     <li>○ Built toys for students with developmental disability to enhance their artistic talent and socialization skills</li>
-                    <li>○ Built alumni database for universities and schools, deployed at the University of Pennsylvania and University of Toronto</li>
                     <li>○ Consulted <span style={{
                         textDecorationLine: 'underline',
                         textDecorationColor: '#98B2D3',
