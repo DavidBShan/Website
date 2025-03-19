@@ -213,7 +213,7 @@ function Demo3 (props) {
                         textDecorationStyle: 'solid',
                         textDecorationThickness: '3px',
                         fontStyle: 'italic'
-                    }}> people search </span> backed by YC X25 and Cory Levy</li>
+                    }}> people search </span> backed by Y Combinator (X25) and Cory Levy</li>
                     <li>○ Heading First Robotic Competition Team 610's programming department</li>
                     <li>○ Leading Crescent School's Data Science Club, Math Club, and Computer Science Club</li>
                     <li>○ Guiding 10+ members to build equipment signout and monitoring tool for Crescent School's Media Department to positively impact the school community</li>
